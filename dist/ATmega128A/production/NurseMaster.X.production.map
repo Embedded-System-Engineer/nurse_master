@@ -1,0 +1,2777 @@
+Archive member included to satisfy reference by file (symbol)
+
+lib\mega2.X.a(csma.o)         build/ATmega128A/production/src/configuration.o (csmaloadConfig)
+lib\mega2.X.a(ds1307.o)       build/ATmega128A/production/src/SystemTime.o (ds1307SetDate)
+lib\mega2.X.a(exEprom.o)      build/ATmega128A/production/src/Memory.o (exeepromReady)
+lib\mega2.X.a(keypad.o)       build/ATmega128A/production/src/app.o (NO_CODE)
+lib\mega2.X.a(lcd.o)          build/ATmega128A/production/src/SystemTime.o (lcdNoBlink)
+lib\mega2.X.a(lcdmnue.o)      build/ATmega128A/production/src/Main.o (NullItem)
+lib\mega2.X.a(system.o)       lib\mega2.X.a(ds1307.o) (sysUpdateNow)
+lib\mega2.X.a(time.o)         build/ATmega128A/production/src/SystemTime.o (DateTimeFromTimeStamp)
+lib\mega2.X.a(tone.o)         build/ATmega128A/production/src/userSytstem.o (Toneplay)
+lib\mega2.X.a(twi.o)          lib\mega2.X.a(ds1307.o) (twi_master_write)
+lib\mega2.X.a(usart.o)        lib\mega2.X.a(csma.o) (UARTDataFramError1)
+lib\mega2.X.a(utility.o)      build/ATmega128A/production/src/ResetSystem.o (map)
+lib\mega2.X.a(mega.o)         C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o (main)
+lib\mega2.X.a(buffers.o)      lib\mega2.X.a(keypad.o) (structBufferInit)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                              lib\mega2.X.a(lcd.o) (__divsf3)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                              f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3.o) (__divsf3x)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+                              lib\mega2.X.a(lcd.o) (__fixunssfsi)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                              lib\mega2.X.a(lcd.o) (__floatsisf)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                              f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3x.o) (__fp_inf)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                              f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3x.o) (__fp_nan)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                              f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3x.o) (__fp_pscA)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                              f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3x.o) (__fp_pscB)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                              f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3.o) (__fp_round)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                              f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3x.o) (__fp_split3)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                              f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o) (__fp_zero)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodqi4.o)
+                              lib\mega2.X.a(lcd.o) (__udivmodqi4)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodhi4.o)
+                              build/ATmega128A/production/src/TypeNumberSystem.o (__udivmodhi4)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodhi4.o)
+                              build/ATmega128A/production/src/password.o (__divmodhi4)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodsi4.o)
+                              lib\mega2.X.a(csma.o) (__udivmodsi4)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+                              C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o (exit)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_tablejump2.o)
+                              build/ATmega128A/production/src/Requests.o (__tablejump2__)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+                              build/ATmega128A/production/src/SystemTime.o (__do_copy_data)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+                              build/ATmega128A/production/src/app.o (__do_clear_bss)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_umulhisi3.o)
+                              lib\mega2.X.a(csma.o) (__umulhisi3)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_muluhisi3.o)
+                              lib\mega2.X.a(system.o) (__muluhisi3)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_mulshisi3.o)
+                              lib\mega2.X.a(utility.o) (__mulshisi3)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+                              build/ATmega128A/production/src/display_queue.o (malloc)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(random.o)
+                              lib\mega2.X.a(csma.o) (random)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcmp_P.o)
+                              build/ATmega128A/production/src/message.o (memcmp_P)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
+                              lib\mega2.X.a(lcd.o) (memcpy_P)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(strlen_P.o)
+                              lib\mega2.X.a(lcd.o) (__strlen_P)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcpy.o)
+                              lib\mega2.X.a(time.o) (memcpy)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o)
+                              f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(random.o) (__divmodsi4)
+f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_negsi2.o)
+                              f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o) (__negsi2)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+gstWorkingTime      0x8               build/ATmega128A/production/src/WorkingTime.o
+gstExeepromTimeOut  0x4               lib\mega2.X.a(exEprom.o)
+__flp               0x2               f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+s3                  0x2               build/ATmega128A/production/src/SystemTime.o
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ .bss           0x0000000000000000        0x0 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/app.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/app.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/app.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/SystemTime.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/SystemTime.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/SystemTime.o
+ COMMON         0x0000000000000000        0x2 build/ATmega128A/production/src/SystemTime.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/EventsHandles.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/EventsHandles.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/EventsHandles.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/message.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/message.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/message.o
+ .text.messageCompareString
+                0x0000000000000000       0x22 build/ATmega128A/production/src/message.o
+ .text.getMessageLength
+                0x0000000000000000       0x20 build/ATmega128A/production/src/message.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/WorkingTime.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/WorkingTime.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/WorkingTime.o
+ .text.WorkingTimeInit
+                0x0000000000000000        0xa build/ATmega128A/production/src/WorkingTime.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/Main.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/Main.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/Main.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/Requests.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/Requests.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/Requests.o
+ .text.ConfigRoom
+                0x0000000000000000       0x74 build/ATmega128A/production/src/Requests.o
+ .avr.prop      0x0000000000000000       0x16 build/ATmega128A/production/src/Requests.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/selectIP.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/selectIP.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/selectIP.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/SystemGenralOption.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/SystemGenralOption.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/SystemGenralOption.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/switchCallbacks.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/switchCallbacks.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/switchCallbacks.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/TypeNumberSystem.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/TypeNumberSystem.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/TypeNumberSystem.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/loadConfig.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/loadConfig.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/loadConfig.o
+ .comment       0x0000000000000000       0x31 build/ATmega128A/production/src/loadConfig.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/configuration.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/configuration.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/configuration.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/ResetSystem.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/ResetSystem.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/ResetSystem.o
+ .text.SystemResetSerail
+                0x0000000000000000       0x16 build/ATmega128A/production/src/ResetSystem.o
+ .text.SystemResetSerialCallBack
+                0x0000000000000000       0x34 build/ATmega128A/production/src/ResetSystem.o
+ .avr.prop      0x0000000000000000       0x16 build/ATmega128A/production/src/ResetSystem.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/loadIp.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/loadIp.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/loadIp.o
+ .avr.prop      0x0000000000000000       0x16 build/ATmega128A/production/src/loadIp.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/network.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/network.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/network.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/displayCallbacks.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/displayCallbacks.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/displayCallbacks.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/password.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/password.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/password.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/Memory.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/Memory.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/Memory.o
+ .avr.prop      0x0000000000000000       0x16 build/ATmega128A/production/src/Memory.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/userSytstem.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/userSytstem.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/userSytstem.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/display_queue.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/display_queue.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/display_queue.o
+ .text          0x0000000000000000        0x0 build/ATmega128A/production/src/dataTiming.o
+ .data          0x0000000000000000        0x0 build/ATmega128A/production/src/dataTiming.o
+ .bss           0x0000000000000000        0x0 build/ATmega128A/production/src/dataTiming.o
+ .text.DataTimeInit
+                0x0000000000000000       0x16 build/ATmega128A/production/src/dataTiming.o
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(csma.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(csma.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(csma.o)
+ .text.sendBlockFrame
+                0x0000000000000000       0x20 lib\mega2.X.a(csma.o)
+ .text.csmaGetStationAddress
+                0x0000000000000000        0x6 lib\mega2.X.a(csma.o)
+ .text.csmaInitStationAddress
+                0x0000000000000000        0x6 lib\mega2.X.a(csma.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(ds1307.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(ds1307.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(ds1307.o)
+ .text.ds1307IsSetDone
+                0x0000000000000000        0x6 lib\mega2.X.a(ds1307.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(exEprom.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(exEprom.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(exEprom.o)
+ .text.exeepromReset
+                0x0000000000000000       0x2e lib\mega2.X.a(exEprom.o)
+ .text.exeepromWriteByte
+                0x0000000000000000       0x22 lib\mega2.X.a(exEprom.o)
+ .text.exeepromRequestByte
+                0x0000000000000000        0xc lib\mega2.X.a(exEprom.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(keypad.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(keypad.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(keypad.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(lcd.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(lcd.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(lcd.o)
+ .text.lcdNoCursor
+                0x0000000000000000        0xc lib\mega2.X.a(lcd.o)
+ .text.lcdCursor
+                0x0000000000000000       0x1e lib\mega2.X.a(lcd.o)
+ .text.lcdwrite
+                0x0000000000000000       0x24 lib\mega2.X.a(lcd.o)
+ .text.lcdwriteCGRAM
+                0x0000000000000000       0x12 lib\mega2.X.a(lcd.o)
+ .text.lcdGetLineDate
+                0x0000000000000000       0x12 lib\mega2.X.a(lcd.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(lcdmnue.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(lcdmnue.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(lcdmnue.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(system.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(system.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(system.o)
+ .text.stopHwTimer0
+                0x0000000000000000        0xa lib\mega2.X.a(system.o)
+ .text.systemSleep
+                0x0000000000000000       0x18 lib\mega2.X.a(system.o)
+ .text.sysTimerInitMS
+                0x0000000000000000       0x9c lib\mega2.X.a(system.o)
+ .text.sysTimerResetMS
+                0x0000000000000000       0x44 lib\mega2.X.a(system.o)
+ .text.sysTimerCheckMs
+                0x0000000000000000       0x8c lib\mega2.X.a(system.o)
+ .text.systemMicros
+                0x0000000000000000       0x4c lib\mega2.X.a(system.o)
+ .text.sysSetPeriodUs
+                0x0000000000000000       0x34 lib\mega2.X.a(system.o)
+ .text.sysTimerInitUs
+                0x0000000000000000       0x9c lib\mega2.X.a(system.o)
+ .text.sysIsTimeoutUs
+                0x0000000000000000       0x4c lib\mega2.X.a(system.o)
+ .text.sysTimerResetUS
+                0x0000000000000000       0x44 lib\mega2.X.a(system.o)
+ .text.sysTimerCheckUs
+                0x0000000000000000       0x8c lib\mega2.X.a(system.o)
+ .text.sysSetPeriodS
+                0x0000000000000000       0x34 lib\mega2.X.a(system.o)
+ .text.sysTimerInitS
+                0x0000000000000000       0x7c lib\mega2.X.a(system.o)
+ .text.sysIsTimeoutS
+                0x0000000000000000       0x34 lib\mega2.X.a(system.o)
+ .text.sysTimerResetS
+                0x0000000000000000       0x44 lib\mega2.X.a(system.o)
+ .text.sysTimerCheckS
+                0x0000000000000000       0x7a lib\mega2.X.a(system.o)
+ .text.__delay_ms
+                0x0000000000000000       0x30 lib\mega2.X.a(system.o)
+ .text.__delay_us
+                0x0000000000000000       0x30 lib\mega2.X.a(system.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(time.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(time.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(time.o)
+ .text.DateTimeFromUserTime
+                0x0000000000000000       0x28 lib\mega2.X.a(time.o)
+ .text.DateTimeFromString
+                0x0000000000000000       0x58 lib\mega2.X.a(time.o)
+ .text.DateTimeFromFlash
+                0x0000000000000000       0x9c lib\mega2.X.a(time.o)
+ .rodata.DateTimeFromISO8601.str1.1
+                0x0000000000000000       0x14 lib\mega2.X.a(time.o)
+ .text.DateTimeFromISO8601
+                0x0000000000000000       0xb8 lib\mega2.X.a(time.o)
+ .text.DateTimeisValid
+                0x0000000000000000       0x78 lib\mega2.X.a(time.o)
+ .text.DateTimeDayOfTheWeek
+                0x0000000000000000       0x1a lib\mega2.X.a(time.o)
+ .text.DateTimetwelveHour
+                0x0000000000000000       0x16 lib\mega2.X.a(time.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(tone.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(tone.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(tone.o)
+ .text.isTonePlaying
+                0x0000000000000000       0x10 lib\mega2.X.a(tone.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(twi.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(twi.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(twi.o)
+ .text.twi_master_get_status
+                0x0000000000000000        0x6 lib\mega2.X.a(twi.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(usart.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(usart.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(usart.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(utility.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(utility.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(utility.o)
+ .text.u8Decoder
+                0x0000000000000000       0x2a lib\mega2.X.a(utility.o)
+ .text.hex8TOASII
+                0x0000000000000000       0x24 lib\mega2.X.a(utility.o)
+ .text.cpyStringToBuff
+                0x0000000000000000       0x16 lib\mega2.X.a(utility.o)
+ .text.print3d  0x0000000000000000       0x2e lib\mega2.X.a(utility.o)
+ .text.ResetScollMessage
+                0x0000000000000000        0x6 lib\mega2.X.a(utility.o)
+ .text.Edit2Digit
+                0x0000000000000000       0x4c lib\mega2.X.a(utility.o)
+ .text.u32TOASII
+                0x0000000000000000       0x8a lib\mega2.X.a(utility.o)
+ .text.arraytoU8
+                0x0000000000000000       0x3c lib\mega2.X.a(utility.o)
+ .text.arraytoU16
+                0x0000000000000000       0x3c lib\mega2.X.a(utility.o)
+ .text.u8ToBCD  0x0000000000000000       0x3e lib\mega2.X.a(utility.o)
+ .text.u16ToBCD
+                0x0000000000000000       0x48 lib\mega2.X.a(utility.o)
+ .text.MatchBufWithValue
+                0x0000000000000000       0x1a lib\mega2.X.a(utility.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(mega.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(mega.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(mega.o)
+ .text          0x0000000000000000        0x0 lib\mega2.X.a(buffers.o)
+ .data          0x0000000000000000        0x0 lib\mega2.X.a(buffers.o)
+ .bss           0x0000000000000000        0x0 lib\mega2.X.a(buffers.o)
+ .text.Buffer_Is_Empty
+                0x0000000000000000        0xe lib\mega2.X.a(buffers.o)
+ .text.Buffer_Is_Full
+                0x0000000000000000        0xe lib\mega2.X.a(buffers.o)
+ .text.byteBufferInit
+                0x0000000000000000       0x10 lib\mega2.X.a(buffers.o)
+ .text.TLVBufferInit
+                0x0000000000000000       0x12 lib\mega2.X.a(buffers.o)
+ .text.getExistingLength
+                0x0000000000000000        0x6 lib\mega2.X.a(buffers.o)
+ .text.getTlvCount
+                0x0000000000000000        0x6 lib\mega2.X.a(buffers.o)
+ .text.getStructCount
+                0x0000000000000000        0xc lib\mega2.X.a(buffers.o)
+ .text.putTLV   0x0000000000000000       0x7e lib\mega2.X.a(buffers.o)
+ .text.getTLV   0x0000000000000000       0x58 lib\mega2.X.a(buffers.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodhi4.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodhi4.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_tablejump2.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_tablejump2.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_tablejump2.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_umulhisi3.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_umulhisi3.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_muluhisi3.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_muluhisi3.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_muluhisi3.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_mulshisi3.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_mulshisi3.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_mulshisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_mulshisi3.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(random.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(random.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcmp_P.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcmp_P.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcmp_P.o)
+ .text.avr-libc
+                0x0000000000000000       0x1a f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcmp_P.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(strlen_P.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(strlen_P.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(strlen_P.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcpy.o)
+ .text.avr-libc
+                0x0000000000000000       0x12 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcpy.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o)
+ .text          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_negsi2.o)
+ .data          0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_negsi2.o)
+ .bss           0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc   0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_negsi2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800100 0x0000000000001000 rw !x
+eeprom           0x0000000000810000 0x0000000000001000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+LOAD build/ATmega128A/production/src/app.o
+LOAD build/ATmega128A/production/src/SystemTime.o
+LOAD build/ATmega128A/production/src/EventsHandles.o
+LOAD build/ATmega128A/production/src/message.o
+LOAD build/ATmega128A/production/src/WorkingTime.o
+LOAD build/ATmega128A/production/src/Main.o
+LOAD build/ATmega128A/production/src/Requests.o
+LOAD build/ATmega128A/production/src/selectIP.o
+LOAD build/ATmega128A/production/src/SystemGenralOption.o
+LOAD build/ATmega128A/production/src/switchCallbacks.o
+LOAD build/ATmega128A/production/src/TypeNumberSystem.o
+LOAD build/ATmega128A/production/src/loadConfig.o
+LOAD build/ATmega128A/production/src/configuration.o
+LOAD build/ATmega128A/production/src/ResetSystem.o
+LOAD build/ATmega128A/production/src/loadIp.o
+LOAD build/ATmega128A/production/src/network.o
+LOAD build/ATmega128A/production/src/displayCallbacks.o
+LOAD build/ATmega128A/production/src/password.o
+LOAD build/ATmega128A/production/src/Memory.o
+LOAD build/ATmega128A/production/src/userSytstem.o
+LOAD build/ATmega128A/production/src/display_queue.o
+LOAD build/ATmega128A/production/src/dataTiming.o
+LOAD lib\mega2.X.a
+                0x0000000000000001                __MPLAB_BUILD = 0x1
+START GROUP
+LOAD f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a
+END GROUP
+START GROUP
+LOAD f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a
+LOAD f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a
+LOAD f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a
+LOAD C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51\libatmega128a.a
+END GROUP
+                [0x0000000000000000]                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x0000000000800100]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800100
+                [0x0000000000020000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x0000000000001000]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xff00
+                [0x0000000000001000]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x828c
+ *(.vectors)
+ .vectors       0x0000000000000000       0x8c C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+                0x0000000000000000                __vector_default
+                0x0000000000000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x000000000000008c                . = ALIGN (0x2)
+                0x000000000000008c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000008c        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000008c                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.key16
+                0x000000000000008c        0x4 build/ATmega128A/production/src/app.o
+                0x000000000000008c                key16
+ .progmem.data.key15
+                0x0000000000000090        0x4 build/ATmega128A/production/src/app.o
+                0x0000000000000090                key15
+ .progmem.data.key14
+                0x0000000000000094        0x4 build/ATmega128A/production/src/app.o
+                0x0000000000000094                key14
+ .progmem.data.key13
+                0x0000000000000098        0x4 build/ATmega128A/production/src/app.o
+                0x0000000000000098                key13
+ .progmem.data.key12
+                0x000000000000009c        0x4 build/ATmega128A/production/src/app.o
+                0x000000000000009c                key12
+ .progmem.data.key11
+                0x00000000000000a0        0x4 build/ATmega128A/production/src/app.o
+                0x00000000000000a0                key11
+ .progmem.data.key10
+                0x00000000000000a4        0x4 build/ATmega128A/production/src/app.o
+                0x00000000000000a4                key10
+ .progmem.data.key9
+                0x00000000000000a8        0x4 build/ATmega128A/production/src/app.o
+                0x00000000000000a8                key9
+ .progmem.data.key8
+                0x00000000000000ac        0x4 build/ATmega128A/production/src/app.o
+                0x00000000000000ac                key8
+ .progmem.data.key7
+                0x00000000000000b0        0x4 build/ATmega128A/production/src/app.o
+                0x00000000000000b0                key7
+ .progmem.data.key6
+                0x00000000000000b4        0x4 build/ATmega128A/production/src/app.o
+                0x00000000000000b4                key6
+ .progmem.data.key5
+                0x00000000000000b8        0x4 build/ATmega128A/production/src/app.o
+                0x00000000000000b8                key5
+ .progmem.data.key4
+                0x00000000000000bc        0x4 build/ATmega128A/production/src/app.o
+                0x00000000000000bc                key4
+ .progmem.data.key3
+                0x00000000000000c0        0x4 build/ATmega128A/production/src/app.o
+                0x00000000000000c0                key3
+ .progmem.data.key2
+                0x00000000000000c4        0x4 build/ATmega128A/production/src/app.o
+                0x00000000000000c4                key2
+ .progmem.data.key1
+                0x00000000000000c8        0x4 build/ATmega128A/production/src/app.o
+                0x00000000000000c8                key1
+ .progmem.data.Messages
+                0x00000000000000cc       0x8c build/ATmega128A/production/src/message.o
+                0x00000000000000cc                Messages
+ .progmem.data.string_70
+                0x0000000000000158        0xa build/ATmega128A/production/src/message.o
+                0x0000000000000158                string_70
+ .progmem.data.string_69
+                0x0000000000000162        0xc build/ATmega128A/production/src/message.o
+                0x0000000000000162                string_69
+ .progmem.data.string_68
+                0x000000000000016e        0xc build/ATmega128A/production/src/message.o
+                0x000000000000016e                string_68
+ .progmem.data.string_67
+                0x000000000000017a        0xb build/ATmega128A/production/src/message.o
+                0x000000000000017a                string_67
+ .progmem.data.string_66
+                0x0000000000000185        0xa build/ATmega128A/production/src/message.o
+                0x0000000000000185                string_66
+ .progmem.data.string_65
+                0x000000000000018f       0x11 build/ATmega128A/production/src/message.o
+                0x000000000000018f                string_65
+ .progmem.data.string_64
+                0x00000000000001a0        0xf build/ATmega128A/production/src/message.o
+                0x00000000000001a0                string_64
+ .progmem.data.string_63
+                0x00000000000001af        0xc build/ATmega128A/production/src/message.o
+                0x00000000000001af                string_63
+ .progmem.data.string_62
+                0x00000000000001bb       0x14 build/ATmega128A/production/src/message.o
+                0x00000000000001bb                string_62
+ .progmem.data.string_61
+                0x00000000000001cf       0x12 build/ATmega128A/production/src/message.o
+                0x00000000000001cf                string_61
+ .progmem.data.string_60
+                0x00000000000001e1       0x10 build/ATmega128A/production/src/message.o
+                0x00000000000001e1                string_60
+ .progmem.data.string_59
+                0x00000000000001f1       0x12 build/ATmega128A/production/src/message.o
+                0x00000000000001f1                string_59
+ .progmem.data.string_58
+                0x0000000000000203        0xf build/ATmega128A/production/src/message.o
+                0x0000000000000203                string_58
+ .progmem.data.string_57
+                0x0000000000000212        0x8 build/ATmega128A/production/src/message.o
+                0x0000000000000212                string_57
+ .progmem.data.string_56
+                0x000000000000021a        0xf build/ATmega128A/production/src/message.o
+                0x000000000000021a                string_56
+ .progmem.data.string_55
+                0x0000000000000229        0xd build/ATmega128A/production/src/message.o
+                0x0000000000000229                string_55
+ .progmem.data.string_54
+                0x0000000000000236        0xa build/ATmega128A/production/src/message.o
+                0x0000000000000236                string_54
+ .progmem.data.string_53
+                0x0000000000000240        0xc build/ATmega128A/production/src/message.o
+                0x0000000000000240                string_53
+ .progmem.data.string_52
+                0x000000000000024c        0xf build/ATmega128A/production/src/message.o
+                0x000000000000024c                string_52
+ .progmem.data.string_51
+                0x000000000000025b        0xd build/ATmega128A/production/src/message.o
+                0x000000000000025b                string_51
+ .progmem.data.string_50
+                0x0000000000000268        0xd build/ATmega128A/production/src/message.o
+                0x0000000000000268                string_50
+ .progmem.data.string_49
+                0x0000000000000275        0x9 build/ATmega128A/production/src/message.o
+                0x0000000000000275                string_49
+ .progmem.data.string_48
+                0x000000000000027e        0xa build/ATmega128A/production/src/message.o
+                0x000000000000027e                string_48
+ .progmem.data.string_47
+                0x0000000000000288        0xf build/ATmega128A/production/src/message.o
+                0x0000000000000288                string_47
+ .progmem.data.string_46
+                0x0000000000000297        0x9 build/ATmega128A/production/src/message.o
+                0x0000000000000297                string_46
+ .progmem.data.string_45
+                0x00000000000002a0        0x7 build/ATmega128A/production/src/message.o
+                0x00000000000002a0                string_45
+ .progmem.data.string_44
+                0x00000000000002a7        0x5 build/ATmega128A/production/src/message.o
+                0x00000000000002a7                string_44
+ .progmem.data.string_43
+                0x00000000000002ac        0x9 build/ATmega128A/production/src/message.o
+                0x00000000000002ac                string_43
+ .progmem.data.string_42
+                0x00000000000002b5        0x3 build/ATmega128A/production/src/message.o
+                0x00000000000002b5                string_42
+ .progmem.data.string_41
+                0x00000000000002b8        0x4 build/ATmega128A/production/src/message.o
+                0x00000000000002b8                string_41
+ .progmem.data.string_40
+                0x00000000000002bc        0xc build/ATmega128A/production/src/message.o
+                0x00000000000002bc                string_40
+ .progmem.data.string_39
+                0x00000000000002c8        0xd build/ATmega128A/production/src/message.o
+                0x00000000000002c8                string_39
+ .progmem.data.string_38
+                0x00000000000002d5        0xe build/ATmega128A/production/src/message.o
+                0x00000000000002d5                string_38
+ .progmem.data.string_37
+                0x00000000000002e3       0x10 build/ATmega128A/production/src/message.o
+                0x00000000000002e3                string_37
+ .progmem.data.string_36
+                0x00000000000002f3        0xc build/ATmega128A/production/src/message.o
+                0x00000000000002f3                string_36
+ .progmem.data.string_35
+                0x00000000000002ff        0xa build/ATmega128A/production/src/message.o
+                0x00000000000002ff                string_35
+ .progmem.data.string_34
+                0x0000000000000309        0x8 build/ATmega128A/production/src/message.o
+                0x0000000000000309                string_34
+ .progmem.data.string_33
+                0x0000000000000311        0xf build/ATmega128A/production/src/message.o
+                0x0000000000000311                string_33
+ .progmem.data.string_32
+                0x0000000000000320        0x8 build/ATmega128A/production/src/message.o
+                0x0000000000000320                string_32
+ .progmem.data.string_31
+                0x0000000000000328        0xd build/ATmega128A/production/src/message.o
+                0x0000000000000328                string_31
+ .progmem.data.string_30
+                0x0000000000000335        0xd build/ATmega128A/production/src/message.o
+                0x0000000000000335                string_30
+ .progmem.data.string_29
+                0x0000000000000342        0x1 build/ATmega128A/production/src/message.o
+                0x0000000000000342                string_29
+ .progmem.data.string_28
+                0x0000000000000343        0x5 build/ATmega128A/production/src/message.o
+                0x0000000000000343                string_28
+ .progmem.data.string_27
+                0x0000000000000348        0x5 build/ATmega128A/production/src/message.o
+                0x0000000000000348                string_27
+ .progmem.data.string_26
+                0x000000000000034d        0xd build/ATmega128A/production/src/message.o
+                0x000000000000034d                string_26
+ .progmem.data.string_25
+                0x000000000000035a        0xa build/ATmega128A/production/src/message.o
+                0x000000000000035a                string_25
+ .progmem.data.string_24
+                0x0000000000000364        0xd build/ATmega128A/production/src/message.o
+                0x0000000000000364                string_24
+ .progmem.data.string_23
+                0x0000000000000371        0xa build/ATmega128A/production/src/message.o
+                0x0000000000000371                string_23
+ .progmem.data.string_22
+                0x000000000000037b        0xe build/ATmega128A/production/src/message.o
+                0x000000000000037b                string_22
+ .progmem.data.string_21
+                0x0000000000000389        0xe build/ATmega128A/production/src/message.o
+                0x0000000000000389                string_21
+ .progmem.data.string_20
+                0x0000000000000397       0x10 build/ATmega128A/production/src/message.o
+                0x0000000000000397                string_20
+ .progmem.data.string_19
+                0x00000000000003a7       0x10 build/ATmega128A/production/src/message.o
+                0x00000000000003a7                string_19
+ .progmem.data.string_18
+                0x00000000000003b7       0x40 build/ATmega128A/production/src/message.o
+                0x00000000000003b7                string_18
+ .progmem.data.string_17
+                0x00000000000003f7        0x8 build/ATmega128A/production/src/message.o
+                0x00000000000003f7                string_17
+ .progmem.data.string_16
+                0x00000000000003ff        0x8 build/ATmega128A/production/src/message.o
+                0x00000000000003ff                string_16
+ .progmem.data.string_15
+                0x0000000000000407        0xd build/ATmega128A/production/src/message.o
+                0x0000000000000407                string_15
+ .progmem.data.string_14
+                0x0000000000000414        0xe build/ATmega128A/production/src/message.o
+                0x0000000000000414                string_14
+ .progmem.data.string_13
+                0x0000000000000422        0xd build/ATmega128A/production/src/message.o
+                0x0000000000000422                string_13
+ .progmem.data.string_12
+                0x000000000000042f        0xa build/ATmega128A/production/src/message.o
+                0x000000000000042f                string_12
+ .progmem.data.string_11
+                0x0000000000000439        0xa build/ATmega128A/production/src/message.o
+                0x0000000000000439                string_11
+ .progmem.data.string_10
+                0x0000000000000443        0xb build/ATmega128A/production/src/message.o
+                0x0000000000000443                string_10
+ .progmem.data.string_9
+                0x000000000000044e        0xb build/ATmega128A/production/src/message.o
+                0x000000000000044e                string_9
+ .progmem.data.string_8
+                0x0000000000000459        0xb build/ATmega128A/production/src/message.o
+                0x0000000000000459                string_8
+ .progmem.data.string_7
+                0x0000000000000464        0x9 build/ATmega128A/production/src/message.o
+                0x0000000000000464                string_7
+ .progmem.data.string_6
+                0x000000000000046d        0xb build/ATmega128A/production/src/message.o
+                0x000000000000046d                string_6
+ .progmem.data.string_5
+                0x0000000000000478        0xe build/ATmega128A/production/src/message.o
+                0x0000000000000478                string_5
+ .progmem.data.string_4
+                0x0000000000000486        0x9 build/ATmega128A/production/src/message.o
+                0x0000000000000486                string_4
+ .progmem.data.string_3
+                0x000000000000048f        0x8 build/ATmega128A/production/src/message.o
+                0x000000000000048f                string_3
+ .progmem.data.string_2
+                0x0000000000000497        0xb build/ATmega128A/production/src/message.o
+                0x0000000000000497                string_2
+ .progmem.data.string_1
+                0x00000000000004a2        0x9 build/ATmega128A/production/src/message.o
+                0x00000000000004a2                string_1
+ .progmem.data.DPED
+                0x00000000000004ab        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000004ab                DPED
+ .progmem.data.DPEDL
+                0x00000000000004b7       0x11 build/ATmega128A/production/src/Main.o
+                0x00000000000004b7                DPEDL
+ .progmem.data.DPMV
+                0x00000000000004c8        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000004c8                DPMV
+ .progmem.data.DPMVL
+                0x00000000000004d4        0xa build/ATmega128A/production/src/Main.o
+                0x00000000000004d4                DPMVL
+ .progmem.data.DPST
+                0x00000000000004de        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000004de                DPST
+ .progmem.data.DPSTL
+                0x00000000000004ea       0x10 build/ATmega128A/production/src/Main.o
+                0x00000000000004ea                DPSTL
+ .progmem.data.RPBT
+                0x00000000000004fa        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000004fa                RPBT
+ .progmem.data.RPBTL
+                0x0000000000000506       0x12 build/ATmega128A/production/src/Main.o
+                0x0000000000000506                RPBTL
+ .progmem.data.RPLR
+                0x0000000000000518        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000518                RPLR
+ .progmem.data.RPLRL
+                0x0000000000000524        0xf build/ATmega128A/production/src/Main.o
+                0x0000000000000524                RPLRL
+ .progmem.data.RPBS
+                0x0000000000000533        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000533                RPBS
+ .progmem.data.RPBSL
+                0x000000000000053f        0xd build/ATmega128A/production/src/Main.o
+                0x000000000000053f                RPBSL
+ .progmem.data.RPLV
+                0x000000000000054c        0xc build/ATmega128A/production/src/Main.o
+                0x000000000000054c                RPLV
+ .progmem.data.RPLVL
+                0x0000000000000558       0x11 build/ATmega128A/production/src/Main.o
+                0x0000000000000558                RPLVL
+ .progmem.data.RPST
+                0x0000000000000569        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000569                RPST
+ .progmem.data.RPSTL
+                0x0000000000000575       0x12 build/ATmega128A/production/src/Main.o
+                0x0000000000000575                RPSTL
+ .progmem.data.CPSRS
+                0x0000000000000587        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000587                CPSRS
+ .progmem.data.CPSRSL
+                0x0000000000000593       0x13 build/ATmega128A/production/src/Main.o
+                0x0000000000000593                CPSRSL
+ .progmem.data.CPBTO
+                0x00000000000005a6        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000005a6                CPBTO
+ .progmem.data.CPBTOL
+                0x00000000000005b2        0xf build/ATmega128A/production/src/Main.o
+                0x00000000000005b2                CPBTOL
+ .progmem.data.CPBUZ
+                0x00000000000005c1        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000005c1                CPBUZ
+ .progmem.data.CPBUZL
+                0x00000000000005cd       0x10 build/ATmega128A/production/src/Main.o
+                0x00000000000005cd                CPBUZL
+ .progmem.data.CPSW3
+                0x00000000000005dd        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000005dd                CPSW3
+ .progmem.data.CPSW3L
+                0x00000000000005e9        0xd build/ATmega128A/production/src/Main.o
+                0x00000000000005e9                CPSW3L
+ .progmem.data.CPSW2
+                0x00000000000005f6        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000005f6                CPSW2
+ .progmem.data.CPSW2L
+                0x0000000000000602        0xd build/ATmega128A/production/src/Main.o
+                0x0000000000000602                CPSW2L
+ .progmem.data.CPSW1
+                0x000000000000060f        0xc build/ATmega128A/production/src/Main.o
+                0x000000000000060f                CPSW1
+ .progmem.data.CPSW1L
+                0x000000000000061b        0xd build/ATmega128A/production/src/Main.o
+                0x000000000000061b                CPSW1L
+ .progmem.data.CPRIP
+                0x0000000000000628        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000628                CPRIP
+ .progmem.data.CPRIPL
+                0x0000000000000634        0xb build/ATmega128A/production/src/Main.o
+                0x0000000000000634                CPRIPL
+ .progmem.data.CPRID
+                0x000000000000063f        0xc build/ATmega128A/production/src/Main.o
+                0x000000000000063f                CPRID
+ .progmem.data.CPRIDL
+                0x000000000000064b        0xb build/ATmega128A/production/src/Main.o
+                0x000000000000064b                CPRIDL
+ .progmem.data.CPSID
+                0x0000000000000656        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000656                CPSID
+ .progmem.data.CPSIDL
+                0x0000000000000662        0xd build/ATmega128A/production/src/Main.o
+                0x0000000000000662                CPSIDL
+ .progmem.data.CPSAD
+                0x000000000000066f        0xc build/ATmega128A/production/src/Main.o
+                0x000000000000066f                CPSAD
+ .progmem.data.CPSADL
+                0x000000000000067b       0x11 build/ATmega128A/production/src/Main.o
+                0x000000000000067b                CPSADL
+ .progmem.data.RLDS
+                0x000000000000068c        0xc build/ATmega128A/production/src/Main.o
+                0x000000000000068c                RLDS
+ .progmem.data.RLDSL
+                0x0000000000000698        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000698                RLDSL
+ .progmem.data.RSDS
+                0x00000000000006a4        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000006a4                RSDS
+ .progmem.data.RSDSL
+                0x00000000000006b0       0x10 build/ATmega128A/production/src/Main.o
+                0x00000000000006b0                RSDSL
+ .progmem.data.RSCS
+                0x00000000000006c0        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000006c0                RSCS
+ .progmem.data.RSCSL
+                0x00000000000006cc       0x12 build/ATmega128A/production/src/Main.o
+                0x00000000000006cc                RSCSL
+ .progmem.data.RRMS
+                0x00000000000006de        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000006de                RRMS
+ .progmem.data.RRMSL
+                0x00000000000006ea        0xe build/ATmega128A/production/src/Main.o
+                0x00000000000006ea                RRMSL
+ .progmem.data.RDMS
+                0x00000000000006f8        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000006f8                RDMS
+ .progmem.data.RDMSL
+                0x0000000000000704       0x11 build/ATmega128A/production/src/Main.o
+                0x0000000000000704                RDMSL
+ .progmem.data.SRIP
+                0x0000000000000715        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000715                SRIP
+ .progmem.data.SRIPL
+                0x0000000000000721        0xd build/ATmega128A/production/src/Main.o
+                0x0000000000000721                SRIPL
+ .progmem.data.SRMO
+                0x000000000000072e        0xc build/ATmega128A/production/src/Main.o
+                0x000000000000072e                SRMO
+ .progmem.data.SRMOL
+                0x000000000000073a        0xf build/ATmega128A/production/src/Main.o
+                0x000000000000073a                SRMOL
+ .progmem.data.SRAL
+                0x0000000000000749        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000749                SRAL
+ .progmem.data.SRALL
+                0x0000000000000755        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000755                SRALL
+ .progmem.data.BSE
+                0x0000000000000761        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000761                BSE
+ .progmem.data.BSEL
+                0x000000000000076d        0xf build/ATmega128A/production/src/Main.o
+                0x000000000000076d                BSEL
+ .progmem.data.SDC
+                0x000000000000077c        0xc build/ATmega128A/production/src/Main.o
+                0x000000000000077c                SDC
+ .progmem.data.SDCL
+                0x0000000000000788       0x11 build/ATmega128A/production/src/Main.o
+                0x0000000000000788                SDCL
+ .progmem.data.SRC
+                0x0000000000000799        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000799                SRC
+ .progmem.data.SRCL
+                0x00000000000007a5        0xe build/ATmega128A/production/src/Main.o
+                0x00000000000007a5                SRCL
+ .progmem.data.SCC
+                0x00000000000007b3        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000007b3                SCC
+ .progmem.data.SCCL
+                0x00000000000007bf       0x10 build/ATmega128A/production/src/Main.o
+                0x00000000000007bf                SCCL
+ .progmem.data.SWT
+                0x00000000000007cf        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000007cf                SWT
+ .progmem.data.SWTL
+                0x00000000000007db       0x13 build/ATmega128A/production/src/Main.o
+                0x00000000000007db                SWTL
+ .progmem.data.SRP
+                0x00000000000007ee        0xc build/ATmega128A/production/src/Main.o
+                0x00000000000007ee                SRP
+ .progmem.data.WSTL
+                0x00000000000007fa        0xf build/ATmega128A/production/src/Main.o
+                0x00000000000007fa                WSTL
+ .progmem.data.SCP
+                0x0000000000000809        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000809                SCP
+ .progmem.data.SCPL
+                0x0000000000000815        0xf build/ATmega128A/production/src/Main.o
+                0x0000000000000815                SCPL
+ .progmem.data.SLP
+                0x0000000000000824        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000824                SLP
+ .progmem.data.SLPL
+                0x0000000000000830        0xa build/ATmega128A/production/src/Main.o
+                0x0000000000000830                SLPL
+ .progmem.data.SDT
+                0x000000000000083a        0xc build/ATmega128A/production/src/Main.o
+                0x000000000000083a                SDT
+ .progmem.data.TimeSystem_Lable
+                0x0000000000000846        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000846                TimeSystem_Lable
+ .progmem.data.SMU
+                0x0000000000000852        0xc build/ATmega128A/production/src/Main.o
+                0x0000000000000852                SMU
+ .progmem.data.SMUL
+                0x000000000000085e        0x9 build/ATmega128A/production/src/Main.o
+                0x000000000000085e                SMUL
+ .progmem.data.NO_CODE
+                0x0000000000000867        0x4 lib\mega2.X.a(keypad.o)
+                0x0000000000000867                NO_CODE
+ .progmem.data.CGRAM_FIVE
+                0x000000000000086b        0x8 lib\mega2.X.a(lcd.o)
+ .progmem.data.CGRAM_FOUR
+                0x0000000000000873        0x8 lib\mega2.X.a(lcd.o)
+ .progmem.data.CGRAM_THREE
+                0x000000000000087b        0x8 lib\mega2.X.a(lcd.o)
+ .progmem.data.CGRAM_TWO
+                0x0000000000000883        0x8 lib\mega2.X.a(lcd.o)
+ .progmem.data.CGRAM_ONE
+                0x000000000000088b        0x8 lib\mega2.X.a(lcd.o)
+ .progmem.data.CGRAM_ZERO
+                0x0000000000000893        0x8 lib\mega2.X.a(lcd.o)
+ .progmem.data.NullItem
+                0x000000000000089b        0xc lib\mega2.X.a(lcdmnue.o)
+                0x000000000000089b                NullItem
+ .progmem.data.dOfTheWeek
+                0x00000000000008a7       0x1c lib\mega2.X.a(time.o)
+                0x00000000000008a7                dOfTheWeek
+ .progmem.data.monthsOfTheYear
+                0x00000000000008c3       0x30 lib\mega2.X.a(time.o)
+                0x00000000000008c3                monthsOfTheYear
+ .progmem.data.daysInMonth
+                0x00000000000008f3        0xb lib\mega2.X.a(time.o)
+                0x00000000000008f3                daysInMonth
+                0x00000000000008fe                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000000000008fe                __ctors_start = .
+ *(.ctors)
+                0x00000000000008fe                __ctors_end = .
+                0x00000000000008fe                __dtors_start = .
+ *(.dtors)
+                0x00000000000008fe                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000000000008fe        0x0 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+                0x00000000000008fe                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000000000008fe        0xc C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000000000090a       0x1a f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_copy_data.o)
+                0x000000000000090a                __do_copy_data
+ .init4         0x0000000000000924       0x10 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_clear_bss.o)
+                0x0000000000000924                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000934        0x8 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ *(.init9)
+ *(.text)
+ .text          0x000000000000093c        0x4 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+                0x000000000000093c                __vector_22
+                0x000000000000093c                __vector_28
+                0x000000000000093c                __vector_1
+                0x000000000000093c                __vector_32
+                0x000000000000093c                __vector_34
+                0x000000000000093c                __vector_24
+                0x000000000000093c                __bad_interrupt
+                0x000000000000093c                __vector_6
+                0x000000000000093c                __vector_31
+                0x000000000000093c                __vector_23
+                0x000000000000093c                __vector_25
+                0x000000000000093c                __vector_11
+                0x000000000000093c                __vector_13
+                0x000000000000093c                __vector_17
+                0x000000000000093c                __vector_19
+                0x000000000000093c                __vector_7
+                0x000000000000093c                __vector_27
+                0x000000000000093c                __vector_5
+                0x000000000000093c                __vector_4
+                0x000000000000093c                __vector_9
+                0x000000000000093c                __vector_2
+                0x000000000000093c                __vector_21
+                0x000000000000093c                __vector_29
+                0x000000000000093c                __vector_8
+                0x000000000000093c                __vector_26
+                0x000000000000093c                __vector_14
+                0x000000000000093c                __vector_10
+                0x000000000000093c                __vector_16
+                0x000000000000093c                __vector_18
+                0x0000000000000940                . = ALIGN (0x2)
+ *(.text.*)
+ .text.appBoot  0x0000000000000940        0x2 build/ATmega128A/production/src/app.o
+                0x0000000000000940                appBoot
+ .text.appInit  0x0000000000000942       0x38 build/ATmega128A/production/src/app.o
+                0x0000000000000942                appInit
+ .text.appSync  0x000000000000097a        0x2 build/ATmega128A/production/src/app.o
+                0x000000000000097a                appSync
+ .text.appMain  0x000000000000097c       0x3a build/ATmega128A/production/src/app.o
+                0x000000000000097c                appMain
+ .text.keyCencelEvents
+                0x00000000000009b6        0x8 build/ATmega128A/production/src/SystemTime.o
+ .text.keyEnterEvents
+                0x00000000000009be       0x10 build/ATmega128A/production/src/SystemTime.o
+ .text.ShowEditTime
+                0x00000000000009ce       0xa4 build/ATmega128A/production/src/SystemTime.o
+ .text.keyF2Events
+                0x0000000000000a72       0x30 build/ATmega128A/production/src/SystemTime.o
+ .text.keyF1Events
+                0x0000000000000aa2       0x26 build/ATmega128A/production/src/SystemTime.o
+ .text.keyNumbersEvents
+                0x0000000000000ac8       0x88 build/ATmega128A/production/src/SystemTime.o
+ .text.keyF3Events
+                0x0000000000000b50       0x26 build/ATmega128A/production/src/SystemTime.o
+ .text.SDTF     0x0000000000000b76       0x88 build/ATmega128A/production/src/SystemTime.o
+                0x0000000000000b76                SDTF
+ .text.SystemTimeInit
+                0x0000000000000bfe        0xc build/ATmega128A/production/src/SystemTime.o
+                0x0000000000000bfe                SystemTimeInit
+ .text.keyTime_14
+                0x0000000000000c0a       0x28 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_11
+                0x0000000000000c32       0x28 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_10
+                0x0000000000000c5a       0x28 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_9
+                0x0000000000000c82       0x28 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_7
+                0x0000000000000caa       0x28 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_6
+                0x0000000000000cd2       0x28 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_5
+                0x0000000000000cfa       0x28 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_3
+                0x0000000000000d22       0x28 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_2
+                0x0000000000000d4a       0x28 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_1
+                0x0000000000000d72       0x28 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyEvent
+                0x0000000000000d9a       0x2a build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_16
+                0x0000000000000dc4       0x18 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_15
+                0x0000000000000ddc       0x18 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_8
+                0x0000000000000df4       0x18 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_4
+                0x0000000000000e0c       0x18 build/ATmega128A/production/src/EventsHandles.o
+ .text.keyTime_12
+                0x0000000000000e24       0x26 build/ATmega128A/production/src/EventsHandles.o
+ .text.CommanEventHandles
+                0x0000000000000e4a       0x78 build/ATmega128A/production/src/EventsHandles.o
+                0x0000000000000e4a                CommanEventHandles
+ .text.CommanEventFunctions
+                0x0000000000000ec2       0xac build/ATmega128A/production/src/EventsHandles.o
+                0x0000000000000ec2                CommanEventFunctions
+ .text.ReturnMenuCallBack
+                0x0000000000000f6e       0x48 build/ATmega128A/production/src/EventsHandles.o
+                0x0000000000000f6e                ReturnMenuCallBack
+ .text.WriteMessage
+                0x0000000000000fb6       0x18 build/ATmega128A/production/src/message.o
+                0x0000000000000fb6                WriteMessage
+ .text.appPrintMessage
+                0x0000000000000fce        0x8 build/ATmega128A/production/src/message.o
+                0x0000000000000fce                appPrintMessage
+ .text.WorkingTimeCenecl
+                0x0000000000000fd6        0x8 build/ATmega128A/production/src/WorkingTime.o
+ .text.WorkingTimeEnter
+                0x0000000000000fde       0x9c build/ATmega128A/production/src/WorkingTime.o
+ .text.WorkingTimeF3
+                0x000000000000107a       0x1e build/ATmega128A/production/src/WorkingTime.o
+ .text.WorikingTimeUpdateLcd
+                0x0000000000001098       0x6a build/ATmega128A/production/src/WorkingTime.o
+ .text.WorkingTimeF2
+                0x0000000000001102       0x1c build/ATmega128A/production/src/WorkingTime.o
+ .text.WorkingTimeF1
+                0x000000000000111e       0x1c build/ATmega128A/production/src/WorkingTime.o
+ .text.SWTF     0x000000000000113a      0x100 build/ATmega128A/production/src/WorkingTime.o
+                0x000000000000113a                SWTF
+ .text.SetIpCallback
+                0x000000000000123a       0x26 build/ATmega128A/production/src/Main.o
+ .text.MainModeEvent
+                0x0000000000001260       0x2e build/ATmega128A/production/src/Main.o
+                0x0000000000001260                MainModeEvent
+ .text.MainInit
+                0x000000000000128e       0x1a build/ATmega128A/production/src/Main.o
+                0x000000000000128e                MainInit
+ .text.MainCallBack
+                0x00000000000012a8       0x28 build/ATmega128A/production/src/Main.o
+                0x00000000000012a8                MainCallBack
+ .text.CommErrorDisplayConfigORSuceessCencel
+                0x00000000000012d0        0x8 build/ATmega128A/production/src/Requests.o
+                0x00000000000012d0                CommErrorDisplayConfigORSuceessCencel
+ .text.CommErrorSwConfigORSuceessCencel
+                0x00000000000012d8        0x8 build/ATmega128A/production/src/Requests.o
+                0x00000000000012d8                CommErrorSwConfigORSuceessCencel
+ .text.CommErrorCencel
+                0x00000000000012e0        0x8 build/ATmega128A/production/src/Requests.o
+ .text.CommunicationError
+                0x00000000000012e8       0x76 build/ATmega128A/production/src/Requests.o
+ .text.StartConfig
+                0x000000000000135e       0x5e build/ATmega128A/production/src/Requests.o
+                0x000000000000135e                StartConfig
+ .text.LoadIpRequest
+                0x00000000000013bc       0x5e build/ATmega128A/production/src/Requests.o
+                0x00000000000013bc                LoadIpRequest
+ .text.swReqData
+                0x000000000000141a       0x3a build/ATmega128A/production/src/Requests.o
+                0x000000000000141a                swReqData
+ .text.SWOnReq  0x0000000000001454      0x186 build/ATmega128A/production/src/Requests.o
+                0x0000000000001454                SWOnReq
+ .text.DisplayOnReq
+                0x00000000000015da      0x140 build/ATmega128A/production/src/Requests.o
+                0x00000000000015da                DisplayOnReq
+ .text.RequestesInit
+                0x000000000000171a       0x12 build/ATmega128A/production/src/Requests.o
+                0x000000000000171a                RequestesInit
+ .text.RegisterAfterError
+                0x000000000000172c        0xa build/ATmega128A/production/src/Requests.o
+                0x000000000000172c                RegisterAfterError
+ .text.AcceptPointRequest
+                0x0000000000001736       0x58 build/ATmega128A/production/src/Requests.o
+                0x0000000000001736                AcceptPointRequest
+ .text.updateDisplayRequest
+                0x000000000000178e       0x82 build/ATmega128A/production/src/Requests.o
+                0x000000000000178e                updateDisplayRequest
+ .text.ClearDisplay
+                0x0000000000001810       0x50 build/ATmega128A/production/src/Requests.o
+                0x0000000000001810                ClearDisplay
+ .text.SelectIpCencelErrorMessage
+                0x0000000000001860        0xe build/ATmega128A/production/src/selectIP.o
+ .text.InvalidIpMesssage
+                0x000000000000186e       0x78 build/ATmega128A/production/src/selectIP.o
+                0x000000000000186e                InvalidIpMesssage
+ .text.selectIpCallback
+                0x00000000000018e6       0xa0 build/ATmega128A/production/src/selectIP.o
+                0x00000000000018e6                selectIpCallback
+ .text.selectIpInit
+                0x0000000000001986        0xa build/ATmega128A/production/src/selectIP.o
+                0x0000000000001986                selectIpInit
+ .text.getCurrentIpSelect
+                0x0000000000001990        0x6 build/ATmega128A/production/src/selectIP.o
+                0x0000000000001990                getCurrentIpSelect
+ .text.resetCurrentIP
+                0x0000000000001996        0x6 build/ATmega128A/production/src/selectIP.o
+                0x0000000000001996                resetCurrentIP
+ .text.SetCurrentIpSelect
+                0x000000000000199c        0x6 build/ATmega128A/production/src/selectIP.o
+                0x000000000000199c                SetCurrentIpSelect
+ .text.SystemOptionF1
+                0x00000000000019a2       0x28 build/ATmega128A/production/src/SystemGenralOption.o
+ .text.SystemOptionCencel
+                0x00000000000019ca       0x14 build/ATmega128A/production/src/SystemGenralOption.o
+ .text.SystemOptionEnter
+                0x00000000000019de       0x10 build/ATmega128A/production/src/SystemGenralOption.o
+ .text.SystemOptionF2
+                0x00000000000019ee       0x1c build/ATmega128A/production/src/SystemGenralOption.o
+ .text.OptionSystemInit
+                0x0000000000001a0a       0x12 build/ATmega128A/production/src/SystemGenralOption.o
+                0x0000000000001a0a                OptionSystemInit
+ .text.systemOptionRegisterData
+                0x0000000000001a1c        0xe build/ATmega128A/production/src/SystemGenralOption.o
+                0x0000000000001a1c                systemOptionRegisterData
+ .text.systemOptionCallBack
+                0x0000000000001a2a       0x88 build/ATmega128A/production/src/SystemGenralOption.o
+                0x0000000000001a2a                systemOptionCallBack
+ .text.SystemGetCurrentOption
+                0x0000000000001ab2        0xa build/ATmega128A/production/src/SystemGenralOption.o
+                0x0000000000001ab2                SystemGetCurrentOption
+ .text.afterErrorComm
+                0x0000000000001abc        0xa build/ATmega128A/production/src/switchCallbacks.o
+ .text.switchIDs.part.0
+                0x0000000000001ac6      0x12e build/ATmega128A/production/src/switchCallbacks.o
+ .text.switchTypeing
+                0x0000000000001bf4      0x134 build/ATmega128A/production/src/switchCallbacks.o
+ .text.RoomIdCallBack
+                0x0000000000001d28       0x16 build/ATmega128A/production/src/switchCallbacks.o
+                0x0000000000001d28                RoomIdCallBack
+ .text.switchIDCallBack
+                0x0000000000001d3e       0x16 build/ATmega128A/production/src/switchCallbacks.o
+                0x0000000000001d3e                switchIDCallBack
+ .text.switchRoomIpCallBack
+                0x0000000000001d54      0x13a build/ATmega128A/production/src/switchCallbacks.o
+                0x0000000000001d54                switchRoomIpCallBack
+ .text.sw1Type  0x0000000000001e8e        0xa build/ATmega128A/production/src/switchCallbacks.o
+                0x0000000000001e8e                sw1Type
+ .text.sw2Type  0x0000000000001e98        0xa build/ATmega128A/production/src/switchCallbacks.o
+                0x0000000000001e98                sw2Type
+ .text.sw3Type  0x0000000000001ea2        0xa build/ATmega128A/production/src/switchCallbacks.o
+                0x0000000000001ea2                sw3Type
+ .text.switchActiveByIp
+                0x0000000000001eac      0x142 build/ATmega128A/production/src/switchCallbacks.o
+                0x0000000000001eac                switchActiveByIp
+ .text.switchBuzzerState
+                0x0000000000001fee      0x138 build/ATmega128A/production/src/switchCallbacks.o
+                0x0000000000001fee                switchBuzzerState
+ .text.switchDisabledSystem
+                0x0000000000002126      0x136 build/ATmega128A/production/src/switchCallbacks.o
+                0x0000000000002126                switchDisabledSystem
+ .text.switchBuzzerTime
+                0x000000000000225c      0x188 build/ATmega128A/production/src/switchCallbacks.o
+                0x000000000000225c                switchBuzzerTime
+ .text.TypeCencel
+                0x00000000000023e4        0x8 build/ATmega128A/production/src/TypeNumberSystem.o
+ .text.TypeEnter
+                0x00000000000023ec       0x24 build/ATmega128A/production/src/TypeNumberSystem.o
+ .text.TypeNumber
+                0x0000000000002410       0x9a build/ATmega128A/production/src/TypeNumberSystem.o
+ .text.TypeF3   0x00000000000024aa       0x86 build/ATmega128A/production/src/TypeNumberSystem.o
+ .text.TypeF2   0x0000000000002530       0x3c build/ATmega128A/production/src/TypeNumberSystem.o
+ .text.TypeF1   0x000000000000256c       0x32 build/ATmega128A/production/src/TypeNumberSystem.o
+ .text.TypeInit
+                0x000000000000259e       0x1e build/ATmega128A/production/src/TypeNumberSystem.o
+                0x000000000000259e                TypeInit
+ .text.TypeCallBack
+                0x00000000000025bc       0xfa build/ATmega128A/production/src/TypeNumberSystem.o
+                0x00000000000025bc                TypeCallBack
+ .text.RegisterTypeAs3DigitOr5Digit
+                0x00000000000026b6       0x16 build/ATmega128A/production/src/TypeNumberSystem.o
+                0x00000000000026b6                RegisterTypeAs3DigitOr5Digit
+ .text.TypeGetValue8Bit
+                0x00000000000026cc        0x6 build/ATmega128A/production/src/TypeNumberSystem.o
+                0x00000000000026cc                TypeGetValue8Bit
+ .text.TypeGetValue16Bit
+                0x00000000000026d2        0xa build/ATmega128A/production/src/TypeNumberSystem.o
+                0x00000000000026d2                TypeGetValue16Bit
+ .text.OnSaveSerial
+                0x00000000000026dc       0x32 build/ATmega128A/production/src/configuration.o
+ .text.ConfigurationInit
+                0x000000000000270e       0x14 build/ATmega128A/production/src/configuration.o
+                0x000000000000270e                ConfigurationInit
+ .text.SystemIsSerial
+                0x0000000000002722       0x1e build/ATmega128A/production/src/configuration.o
+                0x0000000000002722                SystemIsSerial
+ .text.OnSaveSerialCallBack
+                0x0000000000002740       0x38 build/ATmega128A/production/src/configuration.o
+                0x0000000000002740                OnSaveSerialCallBack
+ .text.SystemLoadSerail
+                0x0000000000002778       0x24 build/ATmega128A/production/src/configuration.o
+                0x0000000000002778                SystemLoadSerail
+ .text.SystemResetIp
+                0x000000000000279c      0x384 build/ATmega128A/production/src/ResetSystem.o
+ .text.SystemResetModule
+                0x0000000000002b20       0xe6 build/ATmega128A/production/src/ResetSystem.o
+ .text.SystemResetInit
+                0x0000000000002c06        0xe build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002c06                SystemResetInit
+ .text.SystemResetDisplayModule
+                0x0000000000002c14       0x16 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002c14                SystemResetDisplayModule
+ .text.SystemResetDisplayCallBack
+                0x0000000000002c2a       0x34 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002c2a                SystemResetDisplayCallBack
+ .text.SystemResetRoomModule
+                0x0000000000002c5e       0x16 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002c5e                SystemResetRoomModule
+ .text.SystemResetRoomCallBack
+                0x0000000000002c74       0x34 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002c74                SystemResetRoomCallBack
+ .text.SystemResetSwConfigModule
+                0x0000000000002ca8       0x16 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002ca8                SystemResetSwConfigModule
+ .text.SystemResetSwConfigCallBack
+                0x0000000000002cbe       0x34 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002cbe                SystemResetSwConfigCallBack
+ .text.SystemResetSwDataModule
+                0x0000000000002cf2       0x16 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002cf2                SystemResetSwDataModule
+ .text.SystemResetSwDataCallBack
+                0x0000000000002d08       0x3c build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002d08                SystemResetSwDataCallBack
+ .text.SystemResetLogDataModule
+                0x0000000000002d44       0x16 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002d44                SystemResetLogDataModule
+ .text.SystemResetLogCallBack
+                0x0000000000002d5a       0x34 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002d5a                SystemResetLogCallBack
+ .text.SystemResetLoadConfig
+                0x0000000000002d8e       0x16 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002d8e                SystemResetLoadConfig
+ .text.SystemResetWorkingTime
+                0x0000000000002da4       0x16 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002da4                SystemResetWorkingTime
+ .text.inactiveSytemCallBack
+                0x0000000000002dba       0xc2 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002dba                inactiveSytemCallBack
+ .text.systemInactive
+                0x0000000000002e7c        0x6 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002e7c                systemInactive
+ .text.setSystemInactive
+                0x0000000000002e82        0x6 build/ATmega128A/production/src/ResetSystem.o
+                0x0000000000002e82                setSystemInactive
+ .text.loadIpErrorCencel
+                0x0000000000002e88        0xa build/ATmega128A/production/src/loadIp.o
+ .text.loadIpCallBack
+                0x0000000000002e92      0x1fe build/ATmega128A/production/src/loadIp.o
+                0x0000000000002e92                loadIpCallBack
+ .text.loadIpGetIpShowWithIp
+                0x0000000000003090        0xc build/ATmega128A/production/src/loadIp.o
+                0x0000000000003090                loadIpGetIpShowWithIp
+ .text.NetworkClientSystem
+                0x000000000000309c       0x2e build/ATmega128A/production/src/network.o
+ .text.NetworkHostSystem
+                0x00000000000030ca       0xb8 build/ATmega128A/production/src/network.o
+ .text.NetworkInit
+                0x0000000000003182       0x14 build/ATmega128A/production/src/network.o
+                0x0000000000003182                NetworkInit
+ .text.getCurrentState
+                0x0000000000003196       0x18 build/ATmega128A/production/src/network.o
+                0x0000000000003196                getCurrentState
+ .text.NetworkCallback
+                0x00000000000031ae      0x12c build/ATmega128A/production/src/network.o
+                0x00000000000031ae                NetworkCallback
+ .text.DisplayErrorCencel
+                0x00000000000032da        0xa build/ATmega128A/production/src/displayCallbacks.o
+ .text.DispalyMainID
+                0x00000000000032e4       0xf8 build/ATmega128A/production/src/displayCallbacks.o
+                0x00000000000032e4                DispalyMainID
+ .text.DISPLAYTimeScoller
+                0x00000000000033dc      0x1d6 build/ATmega128A/production/src/displayCallbacks.o
+                0x00000000000033dc                DISPLAYTimeScoller
+ .text.DispalyDandogState
+                0x00000000000035b2       0xfa build/ATmega128A/production/src/displayCallbacks.o
+                0x00000000000035b2                DispalyDandogState
+ .text.TypeCencelPassword
+                0x00000000000036ac        0x8 build/ATmega128A/production/src/password.o
+ .text.TypeEnterPassword
+                0x00000000000036b4        0x8 build/ATmega128A/production/src/password.o
+ .text.passwordErrorCencel
+                0x00000000000036bc        0x6 build/ATmega128A/production/src/password.o
+ .text.resetPassword
+                0x00000000000036c2       0x62 build/ATmega128A/production/src/password.o
+ .text.passwaordCallbackGeneration
+                0x0000000000003724      0x280 build/ATmega128A/production/src/password.o
+ .text.enqueuePassword
+                0x00000000000039a4       0x32 build/ATmega128A/production/src/password.o
+                0x00000000000039a4                enqueuePassword
+ .text.dequeue  0x00000000000039d6       0x34 build/ATmega128A/production/src/password.o
+                0x00000000000039d6                dequeue
+ .text.TypePassword
+                0x0000000000003a0a       0x2c build/ATmega128A/production/src/password.o
+ .text.RemoveLastChar
+                0x0000000000003a36        0xc build/ATmega128A/production/src/password.o
+ .text.GeneralPasswordCallback
+                0x0000000000003a42        0x6 build/ATmega128A/production/src/password.o
+                0x0000000000003a42                GeneralPasswordCallback
+ .text.CustomPasswordCallback
+                0x0000000000003a48        0x6 build/ATmega128A/production/src/password.o
+                0x0000000000003a48                CustomPasswordCallback
+ .text.LoadFromMemory
+                0x0000000000003a4e       0x5e build/ATmega128A/production/src/Memory.o
+                0x0000000000003a4e                LoadFromMemory
+ .text.SaveIntoMemory
+                0x0000000000003aac       0x5a build/ATmega128A/production/src/Memory.o
+                0x0000000000003aac                SaveIntoMemory
+ .text.ResetSystemAllWithSerialOtions.part.2.constprop.4
+                0x0000000000003b06      0x23c build/ATmega128A/production/src/Memory.o
+ .text.MemPowerOn
+                0x0000000000003d42       0x70 build/ATmega128A/production/src/Memory.o
+                0x0000000000003d42                MemPowerOn
+ .text.InitMem  0x0000000000003db2       0x12 build/ATmega128A/production/src/Memory.o
+                0x0000000000003db2                InitMem
+ .text.ResetSystemAll
+                0x0000000000003dc4       0x10 build/ATmega128A/production/src/Memory.o
+                0x0000000000003dc4                ResetSystemAll
+ .text.cancelState
+                0x0000000000003dd4       0x14 build/ATmega128A/production/src/userSytstem.o
+ .text.cancelItemByItem
+                0x0000000000003de8       0x10 build/ATmega128A/production/src/userSytstem.o
+ .text.setCurrentItem
+                0x0000000000003df8       0x54 build/ATmega128A/production/src/userSytstem.o
+                0x0000000000003df8                setCurrentItem
+ .text.RegisterOnUserSystemState
+                0x0000000000003e4c       0x76 build/ATmega128A/production/src/userSytstem.o
+                0x0000000000003e4c                RegisterOnUserSystemState
+ .text.UserInit
+                0x0000000000003ec2       0x24 build/ATmega128A/production/src/userSytstem.o
+                0x0000000000003ec2                UserInit
+ .text.UserCallBack
+                0x0000000000003ee6      0x242 build/ATmega128A/production/src/userSytstem.o
+                0x0000000000003ee6                UserCallBack
+ .text.getPeriodIsDone
+                0x0000000000004128       0x10 build/ATmega128A/production/src/userSytstem.o
+                0x0000000000004128                getPeriodIsDone
+ .text.AcceptIpIsRun
+                0x0000000000004138        0x6 build/ATmega128A/production/src/userSytstem.o
+                0x0000000000004138                AcceptIpIsRun
+ .text.setActiveBuzzer
+                0x000000000000413e       0x14 build/ATmega128A/production/src/userSytstem.o
+                0x000000000000413e                setActiveBuzzer
+ .text.setGloable_Active_buzzer
+                0x0000000000004152       0xa8 build/ATmega128A/production/src/userSytstem.o
+                0x0000000000004152                setGloable_Active_buzzer
+ .text.loadBuzzerStateFroMemeory
+                0x00000000000041fa       0x1a build/ATmega128A/production/src/userSytstem.o
+                0x00000000000041fa                loadBuzzerStateFroMemeory
+ .text.UserAcceptCallback
+                0x0000000000004214       0x36 build/ATmega128A/production/src/userSytstem.o
+                0x0000000000004214                UserAcceptCallback
+ .text.acceptUserCallBack
+                0x000000000000424a       0x60 build/ATmega128A/production/src/userSytstem.o
+                0x000000000000424a                acceptUserCallBack
+ .text.getNextItem
+                0x00000000000042aa       0x3c build/ATmega128A/production/src/display_queue.o
+ .text.QueueProcess
+                0x00000000000042e6       0xc6 build/ATmega128A/production/src/display_queue.o
+ .text.putIntoQueue
+                0x00000000000043ac      0x3e0 build/ATmega128A/production/src/display_queue.o
+                0x00000000000043ac                putIntoQueue
+ .text.userAccptIP
+                0x000000000000478c       0xee build/ATmega128A/production/src/display_queue.o
+ .text.acceptAllSystem
+                0x000000000000487a       0x50 build/ATmega128A/production/src/display_queue.o
+ .text.acceptCurrentPoint
+                0x00000000000048ca       0x46 build/ATmega128A/production/src/display_queue.o
+ .text.processQueue
+                0x0000000000004910       0x3a build/ATmega128A/production/src/display_queue.o
+                0x0000000000004910                processQueue
+ .text.acceptAllCallState
+                0x000000000000494a        0x8 build/ATmega128A/production/src/display_queue.o
+                0x000000000000494a                acceptAllCallState
+ .text.acceptAllUregntState
+                0x0000000000004952        0x8 build/ATmega128A/production/src/display_queue.o
+                0x0000000000004952                acceptAllUregntState
+ .text.acceptCurrentUrgentPoint
+                0x000000000000495a        0x8 build/ATmega128A/production/src/display_queue.o
+                0x000000000000495a                acceptCurrentUrgentPoint
+ .text.acceptCurrentCallPoint
+                0x0000000000004962        0x8 build/ATmega128A/production/src/display_queue.o
+                0x0000000000004962                acceptCurrentCallPoint
+ .text.DataTimePlay
+                0x000000000000496a       0x24 build/ATmega128A/production/src/dataTiming.o
+                0x000000000000496a                DataTimePlay
+ .text.DataTimeCallBack
+                0x000000000000498e      0x1de build/ATmega128A/production/src/dataTiming.o
+                0x000000000000498e                DataTimeCallBack
+ .text.systemIsDateTimeReady
+                0x0000000000004b6c        0x6 build/ATmega128A/production/src/dataTiming.o
+                0x0000000000004b6c                systemIsDateTimeReady
+ .text.systemDateTimeStop
+                0x0000000000004b72       0x16 build/ATmega128A/production/src/dataTiming.o
+                0x0000000000004b72                systemDateTimeStop
+ .text.csma_RestTimer
+                0x0000000000004b88        0xe lib\mega2.X.a(csma.o)
+ .text.ResetCurrentFrameSend
+                0x0000000000004b96       0x36 lib\mega2.X.a(csma.o)
+ .text.defalutStateFun
+                0x0000000000004bcc        0x2 lib\mega2.X.a(csma.o)
+ .text.OnMangemntServerConFiarm
+                0x0000000000004bce       0x2e lib\mega2.X.a(csma.o)
+ .text.OnMangemntServerFrameRemoveAddress
+                0x0000000000004bfc       0x2c lib\mega2.X.a(csma.o)
+ .text.OnMangemntClientFrameRemoveAddess
+                0x0000000000004c28       0x2c lib\mega2.X.a(csma.o)
+ .text.StartTimerWithTime.part.0
+                0x0000000000004c54       0x46 lib\mega2.X.a(csma.o)
+ .text.OnSendFrame
+                0x0000000000004c9a       0x2c lib\mega2.X.a(csma.o)
+ .text.OnMangemntServerFrameAssignAddress
+                0x0000000000004cc6       0x7a lib\mega2.X.a(csma.o)
+ .text.OnMangemntClientFrameGetAddress
+                0x0000000000004d40       0x4e lib\mega2.X.a(csma.o)
+ .text.commBackOffTime
+                0x0000000000004d8e       0xc6 lib\mega2.X.a(csma.o)
+ .text.sendAck.constprop.10
+                0x0000000000004e54       0x4c lib\mega2.X.a(csma.o)
+ .text.ParseWithMangmentFrame
+                0x0000000000004ea0      0x17c lib\mega2.X.a(csma.o)
+ .text.csmaReTransmitCurrentFrame
+                0x000000000000501c       0x36 lib\mega2.X.a(csma.o)
+ .text.ParseWithDataFrame
+                0x0000000000005052      0x106 lib\mega2.X.a(csma.o)
+ .text.__vector_20
+                0x0000000000005158       0x14 lib\mega2.X.a(csma.o)
+                0x0000000000005158                __vector_20
+ .text.__vector_3
+                0x000000000000516c       0x56 lib\mega2.X.a(csma.o)
+                0x000000000000516c                __vector_3
+ .text.__vector_30
+                0x00000000000051c2      0x14e lib\mega2.X.a(csma.o)
+                0x00000000000051c2                __vector_30
+ .text.csmaloadConfig
+                0x0000000000005310       0x30 lib\mega2.X.a(csma.o)
+                0x0000000000005310                csmaloadConfig
+ .text.sendFreeFrame
+                0x0000000000005340       0x28 lib\mega2.X.a(csma.o)
+                0x0000000000005340                sendFreeFrame
+ .text.__vector_12
+                0x0000000000005368      0x2a6 lib\mega2.X.a(csma.o)
+                0x0000000000005368                __vector_12
+ .text.csmaInit
+                0x000000000000560e       0xca lib\mega2.X.a(csma.o)
+                0x000000000000560e                csmaInit
+ .text.CsmaRequestNewFrame
+                0x00000000000056d8       0xcc lib\mega2.X.a(csma.o)
+                0x00000000000056d8                CsmaRequestNewFrame
+ .text.csmaDriver
+                0x00000000000057a4      0x274 lib\mega2.X.a(csma.o)
+                0x00000000000057a4                csmaDriver
+ .text.csmaGetMaxAddress
+                0x0000000000005a18        0x6 lib\mega2.X.a(csma.o)
+                0x0000000000005a18                csmaGetMaxAddress
+ .text.OnHostFrameCh0
+                0x0000000000005a1e        0xa lib\mega2.X.a(csma.o)
+                0x0000000000005a1e                OnHostFrameCh0
+ .text.OnClientFrameCh0
+                0x0000000000005a28        0xa lib\mega2.X.a(csma.o)
+                0x0000000000005a28                OnClientFrameCh0
+ .text.putDataCh0
+                0x0000000000005a32       0xe8 lib\mega2.X.a(csma.o)
+                0x0000000000005a32                putDataCh0
+ .text.csmaSaveSerialRegister
+                0x0000000000005b1a        0xa lib\mega2.X.a(csma.o)
+                0x0000000000005b1a                csmaSaveSerialRegister
+ .text.csmaInitStationIp
+                0x0000000000005b24        0x6 lib\mega2.X.a(csma.o)
+                0x0000000000005b24                csmaInitStationIp
+ .text.ds1307Reset
+                0x0000000000005b2a       0x1a lib\mega2.X.a(ds1307.o)
+ .text.ds1307Init
+                0x0000000000005b44       0x30 lib\mega2.X.a(ds1307.o)
+                0x0000000000005b44                ds1307Init
+ .text.ds1307Driver
+                0x0000000000005b74       0xa8 lib\mega2.X.a(ds1307.o)
+                0x0000000000005b74                ds1307Driver
+ .text.ds1307SetDate
+                0x0000000000005c1c       0x5e lib\mega2.X.a(ds1307.o)
+                0x0000000000005c1c                ds1307SetDate
+ .text.__exeepromAssignData
+                0x0000000000005c7a       0x4c lib\mega2.X.a(exEprom.o)
+ .text.exeepromReady
+                0x0000000000005cc6        0xe lib\mega2.X.a(exEprom.o)
+                0x0000000000005cc6                exeepromReady
+ .text.exeepromWriteBuffer
+                0x0000000000005cd4        0xc lib\mega2.X.a(exEprom.o)
+                0x0000000000005cd4                exeepromWriteBuffer
+ .text.exeepromRequestSteram
+                0x0000000000005ce0       0x12 lib\mega2.X.a(exEprom.o)
+                0x0000000000005ce0                exeepromRequestSteram
+ .text.exeepromDriver
+                0x0000000000005cf2      0x174 lib\mega2.X.a(exEprom.o)
+                0x0000000000005cf2                exeepromDriver
+ .text.exEepromInit
+                0x0000000000005e66       0x3c lib\mega2.X.a(exEprom.o)
+                0x0000000000005e66                exEepromInit
+ .text.exEepromRead
+                0x0000000000005ea2        0xc lib\mega2.X.a(exEprom.o)
+                0x0000000000005ea2                exEepromRead
+ .text.scanCOLs
+                0x0000000000005eae       0x16 lib\mega2.X.a(keypad.o)
+ .text.scanRows
+                0x0000000000005ec4       0x16 lib\mega2.X.a(keypad.o)
+ .text.RowsInputColsOutput
+                0x0000000000005eda       0x58 lib\mega2.X.a(keypad.o)
+ .text.KeyDeBoundCountFun
+                0x0000000000005f32       0xb8 lib\mega2.X.a(keypad.o)
+ .text.KeyAssignCode
+                0x0000000000005fea       0x6e lib\mega2.X.a(keypad.o)
+ .text.keyscan  0x0000000000006058       0x18 lib\mega2.X.a(keypad.o)
+                0x0000000000006058                keyscan
+ .text.keyInit  0x0000000000006070       0x8a lib\mega2.X.a(keypad.o)
+                0x0000000000006070                keyInit
+ .text.KeypadAssignCosntEvents
+                0x00000000000060fa       0x16 lib\mega2.X.a(keypad.o)
+                0x00000000000060fa                KeypadAssignCosntEvents
+ .text.KeypadRegisterEvent
+                0x0000000000006110       0x12 lib\mega2.X.a(keypad.o)
+                0x0000000000006110                KeypadRegisterEvent
+ .text.KeypadDriver
+                0x0000000000006122      0x206 lib\mega2.X.a(keypad.o)
+                0x0000000000006122                KeypadDriver
+ .text.KeypadResetTabCounter
+                0x0000000000006328       0x1c lib\mega2.X.a(keypad.o)
+                0x0000000000006328                KeypadResetTabCounter
+ .text.setlcdInputPin
+                0x0000000000006344       0x1e lib\mega2.X.a(lcd.o)
+ .text.setlcdOutPin
+                0x0000000000006362        0xc lib\mega2.X.a(lcd.o)
+ .text.Pulse_En
+                0x000000000000636e       0x18 lib\mega2.X.a(lcd.o)
+ .text.lcdWaitBusy
+                0x0000000000006386       0x4e lib\mega2.X.a(lcd.o)
+ .text.lcdSend  0x00000000000063d4      0x108 lib\mega2.X.a(lcd.o)
+ .text.lcdSendCommand
+                0x00000000000064dc       0x1a lib\mega2.X.a(lcd.o)
+ .text.lcdSendCommdHigh
+                0x00000000000064f6       0x38 lib\mega2.X.a(lcd.o)
+ .text.lcdNoBlink
+                0x000000000000652e        0xc lib\mega2.X.a(lcd.o)
+                0x000000000000652e                lcdNoBlink
+ .text.lcdBlink
+                0x000000000000653a       0x1e lib\mega2.X.a(lcd.o)
+                0x000000000000653a                lcdBlink
+ .text.lcdHwInit
+                0x0000000000006558       0x22 lib\mega2.X.a(lcd.o)
+                0x0000000000006558                lcdHwInit
+ .text.lcdwritebuf
+                0x000000000000657a       0x16 lib\mega2.X.a(lcd.o)
+                0x000000000000657a                lcdwritebuf
+ .text.lcdCreateChar
+                0x0000000000006590       0x52 lib\mega2.X.a(lcd.o)
+                0x0000000000006590                lcdCreateChar
+ .text.lcdClearlines
+                0x00000000000065e2       0x14 lib\mega2.X.a(lcd.o)
+                0x00000000000065e2                lcdClearlines
+ .text.lcdClear
+                0x00000000000065f6        0xc lib\mega2.X.a(lcd.o)
+                0x00000000000065f6                lcdClear
+ .text.lcdDriver
+                0x0000000000006602      0x1dc lib\mega2.X.a(lcd.o)
+                0x0000000000006602                lcdDriver
+ .text.lcdIsBusy
+                0x00000000000067de        0x8 lib\mega2.X.a(lcd.o)
+                0x00000000000067de                lcdIsBusy
+ .text.lcdUpdateNow
+                0x00000000000067e6        0xc lib\mega2.X.a(lcd.o)
+                0x00000000000067e6                lcdUpdateNow
+ .text.LcdWriteIndex
+                0x00000000000067f2        0xc lib\mega2.X.a(lcd.o)
+                0x00000000000067f2                LcdWriteIndex
+ .text.lcdWriteromFlash
+                0x00000000000067fe       0x34 lib\mega2.X.a(lcd.o)
+                0x00000000000067fe                lcdWriteromFlash
+ .text.lcdWriteString
+                0x0000000000006832       0x2a lib\mega2.X.a(lcd.o)
+                0x0000000000006832                lcdWriteString
+ .text.lcdupdateProgressBar
+                0x000000000000685c       0xaa lib\mega2.X.a(lcd.o)
+                0x000000000000685c                lcdupdateProgressBar
+ .text.showMenueItem
+                0x0000000000006906       0x20 lib\mega2.X.a(lcdmnue.o)
+ .text.menueDownEventEvent
+                0x0000000000006926       0x38 lib\mega2.X.a(lcdmnue.o)
+ .text.menueUpEvent
+                0x000000000000695e       0x36 lib\mega2.X.a(lcdmnue.o)
+ .text.MenuRegisterKey.part.0
+                0x0000000000006994       0x28 lib\mega2.X.a(lcdmnue.o)
+ .text.menuAction
+                0x00000000000069bc       0xae lib\mega2.X.a(lcdmnue.o)
+ .text.MenuRegisterKey.constprop.2
+                0x0000000000006a6a       0x28 lib\mega2.X.a(lcdmnue.o)
+ .text.menueCencelEvent
+                0x0000000000006a92       0x88 lib\mega2.X.a(lcdmnue.o)
+ .text.menueEnterEvent
+                0x0000000000006b1a       0x2a lib\mega2.X.a(lcdmnue.o)
+ .text.CencelCurrentMenue
+                0x0000000000006b44        0xc lib\mega2.X.a(lcdmnue.o)
+                0x0000000000006b44                CencelCurrentMenue
+ .text.MenuInit
+                0x0000000000006b50       0x12 lib\mega2.X.a(lcdmnue.o)
+                0x0000000000006b50                MenuInit
+ .text.menueDriver
+                0x0000000000006b62       0x82 lib\mega2.X.a(lcdmnue.o)
+                0x0000000000006b62                menueDriver
+ .text.menuIsOpen
+                0x0000000000006be4        0xc lib\mega2.X.a(lcdmnue.o)
+                0x0000000000006be4                menuIsOpen
+ .text.menuStart
+                0x0000000000006bf0       0x16 lib\mega2.X.a(lcdmnue.o)
+                0x0000000000006bf0                menuStart
+ .text.__vector_15
+                0x0000000000006c06      0x14a lib\mega2.X.a(system.o)
+                0x0000000000006c06                __vector_15
+ .text.startHwTimer0
+                0x0000000000006d50        0xa lib\mega2.X.a(system.o)
+                0x0000000000006d50                startHwTimer0
+ .text.systemInit
+                0x0000000000006d5a       0x48 lib\mega2.X.a(system.o)
+                0x0000000000006d5a                systemInit
+ .text.sysUpdateNow
+                0x0000000000006da2       0x2a lib\mega2.X.a(system.o)
+                0x0000000000006da2                sysUpdateNow
+ .text.systemSecondEvent
+                0x0000000000006dcc       0x14 lib\mega2.X.a(system.o)
+                0x0000000000006dcc                systemSecondEvent
+ .text.ClearsystemSecondEvent
+                0x0000000000006de0        0x8 lib\mega2.X.a(system.o)
+                0x0000000000006de0                ClearsystemSecondEvent
+ .text.systemMillis
+                0x0000000000006de8       0x18 lib\mega2.X.a(system.o)
+                0x0000000000006de8                systemMillis
+ .text.sysSetPeriodMS
+                0x0000000000006e00       0x34 lib\mega2.X.a(system.o)
+                0x0000000000006e00                sysSetPeriodMS
+ .text.sysIsTimeoutMs
+                0x0000000000006e34       0x4c lib\mega2.X.a(system.o)
+                0x0000000000006e34                sysIsTimeoutMs
+ .text.systemNow
+                0x0000000000006e80       0x18 lib\mega2.X.a(system.o)
+                0x0000000000006e80                systemNow
+ .text.systemReadHalfSecond
+                0x0000000000006e98        0xc lib\mega2.X.a(system.o)
+                0x0000000000006e98                systemReadHalfSecond
+ .text.setupHwTimer0
+                0x0000000000006ea4       0x18 lib\mega2.X.a(system.o)
+                0x0000000000006ea4                setupHwTimer0
+ .text.date2days
+                0x0000000000006ebc       0x58 lib\mega2.X.a(time.o)
+ .text.DateTimeFromTimeStamp
+                0x0000000000006f14      0x108 lib\mega2.X.a(time.o)
+                0x0000000000006f14                DateTimeFromTimeStamp
+ .text.DateTimeUnixtime
+                0x000000000000701c       0x6c lib\mega2.X.a(time.o)
+                0x000000000000701c                DateTimeUnixtime
+ .text.PrintTime
+                0x0000000000007088       0x42 lib\mega2.X.a(time.o)
+                0x0000000000007088                PrintTime
+ .text.PrintDate
+                0x00000000000070ca       0x5a lib\mega2.X.a(time.o)
+                0x00000000000070ca                PrintDate
+ .text.PrintDateTime
+                0x0000000000007124       0x86 lib\mega2.X.a(time.o)
+                0x0000000000007124                PrintDateTime
+ .text.Toneplay
+                0x00000000000071aa       0x2c lib\mega2.X.a(tone.o)
+                0x00000000000071aa                Toneplay
+ .text.Tonestop
+                0x00000000000071d6       0x6c lib\mega2.X.a(tone.o)
+                0x00000000000071d6                Tonestop
+ .text.ToneInit
+                0x0000000000007242       0x14 lib\mega2.X.a(tone.o)
+                0x0000000000007242                ToneInit
+ .text.ToneDriver
+                0x0000000000007256       0x6e lib\mega2.X.a(tone.o)
+                0x0000000000007256                ToneDriver
+ .text.twi_master_bus_reset
+                0x00000000000072c4       0x12 lib\mega2.X.a(twi.o)
+ .text.__vector_33
+                0x00000000000072d6      0x240 lib\mega2.X.a(twi.o)
+                0x00000000000072d6                __vector_33
+ .text.twi_master_write
+                0x0000000000007516       0x8e lib\mega2.X.a(twi.o)
+                0x0000000000007516                twi_master_write
+ .text.twi_master_read
+                0x00000000000075a4       0x96 lib\mega2.X.a(twi.o)
+                0x00000000000075a4                twi_master_read
+ .text.twi_master_init
+                0x000000000000763a       0x2c lib\mega2.X.a(twi.o)
+                0x000000000000763a                twi_master_init
+ .text.UARTDataFramError1
+                0x0000000000007666        0xe lib\mega2.X.a(usart.o)
+                0x0000000000007666                UARTDataFramError1
+ .text.usart1PutByte
+                0x0000000000007674        0x6 lib\mega2.X.a(usart.o)
+                0x0000000000007674                usart1PutByte
+ .text.usart1GetByte
+                0x000000000000767a        0x6 lib\mega2.X.a(usart.o)
+                0x000000000000767a                usart1GetByte
+ .text.usartInit
+                0x0000000000007680       0x18 lib\mega2.X.a(usart.o)
+                0x0000000000007680                usartInit
+ .text.map      0x0000000000007698       0x68 lib\mega2.X.a(utility.o)
+                0x0000000000007698                map
+ .text.power2   0x0000000000007700       0x18 lib\mega2.X.a(utility.o)
+                0x0000000000007700                power2
+ .text.Match_2BUF
+                0x0000000000007718       0x1e lib\mega2.X.a(utility.o)
+                0x0000000000007718                Match_2BUF
+ .text.scllormessage
+                0x0000000000007736       0x72 lib\mega2.X.a(utility.o)
+                0x0000000000007736                scllormessage
+ .text.DecToBcdFun
+                0x00000000000077a8       0x14 lib\mega2.X.a(utility.o)
+                0x00000000000077a8                DecToBcdFun
+ .text.BcdToDecFun
+                0x00000000000077bc       0x12 lib\mega2.X.a(utility.o)
+                0x00000000000077bc                BcdToDecFun
+ .text.conv2d   0x00000000000077ce       0x1a lib\mega2.X.a(utility.o)
+                0x00000000000077ce                conv2d
+ .text.print2d  0x00000000000077e8       0x16 lib\mega2.X.a(utility.o)
+                0x00000000000077e8                print2d
+ .text.copyBuff
+                0x00000000000077fe       0x18 lib\mega2.X.a(utility.o)
+                0x00000000000077fe                copyBuff
+ .text.setBuff  0x0000000000007816       0x12 lib\mega2.X.a(utility.o)
+                0x0000000000007816                setBuff
+ .text.u16TOASII
+                0x0000000000007828       0x8c lib\mega2.X.a(utility.o)
+                0x0000000000007828                u16TOASII
+ .text.u8TOASII
+                0x00000000000078b4       0x8e lib\mega2.X.a(utility.o)
+                0x00000000000078b4                u8TOASII
+ .text.PrintMessage
+                0x0000000000007942       0x4c lib\mega2.X.a(utility.o)
+                0x0000000000007942                PrintMessage
+ .text.csmaCRCCheck
+                0x000000000000798e       0x24 lib\mega2.X.a(utility.o)
+                0x000000000000798e                csmaCRCCheck
+ .text.startup.main
+                0x00000000000079b2       0x5a lib\mega2.X.a(mega.o)
+                0x00000000000079b2                main
+ .text.structBufferInit
+                0x0000000000007a0c       0x18 lib\mega2.X.a(buffers.o)
+                0x0000000000007a0c                structBufferInit
+ .text.getByte  0x0000000000007a24       0x32 lib\mega2.X.a(buffers.o)
+                0x0000000000007a24                getByte
+ .text.putByte  0x0000000000007a56       0x34 lib\mega2.X.a(buffers.o)
+                0x0000000000007a56                putByte
+ .text.putStruct
+                0x0000000000007a8a       0x60 lib\mega2.X.a(buffers.o)
+                0x0000000000007a8a                putStruct
+ .text.getStruct
+                0x0000000000007aea       0x4a lib\mega2.X.a(buffers.o)
+                0x0000000000007aea                getStruct
+ .text.avr-libc.fplib
+                0x0000000000007b34        0x8 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                0x0000000000007b34                __divsf3
+ .text.avr-libc.fplib
+                0x0000000000007b3c       0xdc f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                0x0000000000007b5c                __divsf3x
+                0x0000000000007b62                __divsf3_pse
+ .text.avr-libc.fplib
+                0x0000000000007c18       0x5e f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+                0x0000000000007c18                __fixunssfsi
+ .text.avr-libc.fplib
+                0x0000000000007c76       0x7a f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                0x0000000000007c76                __floatunsisf
+                0x0000000000007c7a                __floatsisf
+ .text.avr-libc.fplib
+                0x0000000000007cf0        0xc f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                0x0000000000007cf0                __fp_inf
+ .text.avr-libc.fplib
+                0x0000000000007cfc        0x6 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                0x0000000000007cfc                __fp_nan
+ .text.avr-libc.fplib
+                0x0000000000007d02        0xe f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                0x0000000000007d02                __fp_pscA
+ .text.avr-libc.fplib
+                0x0000000000007d10        0xe f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                0x0000000000007d10                __fp_pscB
+ .text.avr-libc.fplib
+                0x0000000000007d1e       0x22 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                0x0000000000007d1e                __fp_round
+ .text.avr-libc.fplib
+                0x0000000000007d40       0x44 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                0x0000000000007d40                __fp_split3
+                0x0000000000007d50                __fp_splitA
+ .text.avr-libc.fplib
+                0x0000000000007d84        0xe f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                0x0000000000007d84                __fp_zero
+                0x0000000000007d86                __fp_szero
+ .text.libgcc.div
+                0x0000000000007d92       0x18 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodqi4.o)
+                0x0000000000007d92                __udivmodqi4
+ .text.libgcc.div
+                0x0000000000007daa       0x28 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodhi4.o)
+                0x0000000000007daa                __udivmodhi4
+ .text.libgcc.div
+                0x0000000000007dd2       0x28 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodhi4.o)
+                0x0000000000007dd2                _div
+                0x0000000000007dd2                __divmodhi4
+ .text.libgcc.div
+                0x0000000000007dfa       0x44 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_udivmodsi4.o)
+                0x0000000000007dfa                __udivmodsi4
+ .text.libgcc   0x0000000000007e3e       0x12 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_tablejump2.o)
+                0x0000000000007e3e                __tablejump2__
+ .text.libgcc.mul
+                0x0000000000007e50       0x1e f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_umulhisi3.o)
+                0x0000000000007e50                __umulhisi3
+ .text.libgcc.mul
+                0x0000000000007e6e       0x16 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_muluhisi3.o)
+                0x0000000000007e6e                __muluhisi3
+ .text.libgcc.mul
+                0x0000000000007e84       0x10 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_mulshisi3.o)
+                0x0000000000007e84                __mulshisi3
+                0x0000000000007e8a                __mulohisi3
+ .text.avr-libc
+                0x0000000000007e94      0x24a f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x0000000000007e94                malloc
+                0x0000000000007fcc                free
+ .text.avr-libc
+                0x00000000000080de      0x148 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(random.o)
+                0x00000000000080de                random_r
+                0x0000000000008176                random
+                0x0000000000008214                srandom
+ .text.avr-libc
+                0x0000000000008226       0x12 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(memcpy_P.o)
+                0x0000000000008226                memcpy_P
+ .text.avr-libc
+                0x0000000000008238       0x12 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(strlen_P.o)
+                0x0000000000008238                __strlen_P
+ .text.libgcc.div
+                0x000000000000824a       0x2e f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_divmodsi4.o)
+                0x000000000000824a                __divmodsi4
+ .text.libgcc.div
+                0x0000000000008278       0x10 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_negsi2.o)
+                0x0000000000008278                __negsi2
+                0x0000000000008288                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000008288        0x0 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+                0x0000000000008288                _exit
+                0x0000000000008288                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000008288        0x4 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000000000000828c                _etext = .
+
+.data           0x0000000000800100       0x38 load address 0x000000000000828c
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x6 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x0000000000800100                __malloc_heap_end
+                0x0000000000800102                __malloc_heap_start
+                0x0000000000800104                __malloc_margin
+ .data          0x0000000000800106        0x4 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(random.o)
+ *(.data*)
+ .data.realPassword
+                0x000000000080010a        0x1 build/ATmega128A/production/src/password.o
+ .data.gu8LCDBuffer
+                0x000000000080010b       0x20 lib\mega2.X.a(lcd.o)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.DateTimeIndexValid
+                0x000000000080012b        0x6 build/ATmega128A/production/src/SystemTime.o
+ .rodata.gbufLCDIndexed
+                0x0000000000800131        0x6 build/ATmega128A/production/src/SystemTime.o
+ *(.gnu.linkonce.r*)
+                0x0000000000800138                . = ALIGN (0x2)
+ *fill*         0x0000000000800137        0x1 
+                0x0000000000800138                _edata = .
+                0x0000000000800138                PROVIDE (__data_end, .)
+
+.bss            0x0000000000800138      0x269
+                0x0000000000800138                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.appState  0x0000000000800138        0x1 build/ATmega128A/production/src/app.o
+ .bss.gu8LCDBlink
+                0x0000000000800139        0x1 build/ATmega128A/production/src/SystemTime.o
+ .bss.gu8SystemTimeState
+                0x000000000080013a        0x1 build/ATmega128A/production/src/SystemTime.o
+ .bss.gu8TimeIndexValue
+                0x000000000080013b        0x1 build/ATmega128A/production/src/SystemTime.o
+ .bss.gstDataTime
+                0x000000000080013c        0x7 build/ATmega128A/production/src/SystemTime.o
+ .bss.gpF_Action
+                0x0000000000800143        0x2 build/ATmega128A/production/src/EventsHandles.o
+ .bss.gpCencelAction
+                0x0000000000800145        0x2 build/ATmega128A/production/src/EventsHandles.o
+ .bss.gpEnterAction
+                0x0000000000800147        0x2 build/ATmega128A/production/src/EventsHandles.o
+ .bss.gpF3_Action
+                0x0000000000800149        0x2 build/ATmega128A/production/src/EventsHandles.o
+ .bss.gpF2_Action
+                0x000000000080014b        0x2 build/ATmega128A/production/src/EventsHandles.o
+ .bss.gpF1_Action
+                0x000000000080014d        0x2 build/ATmega128A/production/src/EventsHandles.o
+ .bss.gpkeyNumberEventValue
+                0x000000000080014f        0x2 build/ATmega128A/production/src/EventsHandles.o
+ .bss.gu8WorkingTimeState
+                0x0000000000800151        0x1 build/ATmega128A/production/src/WorkingTime.o
+ .bss.gsEditWorkingTime
+                0x0000000000800152        0x2 build/ATmega128A/production/src/WorkingTime.o
+ .bss.guMoveHour
+                0x0000000000800154        0x1 build/ATmega128A/production/src/WorkingTime.o
+ .bss.gu8Main   0x0000000000800155        0x1 build/ATmega128A/production/src/Main.o
+ .bss.gsRequestTimeOut
+                0x0000000000800156        0x4 build/ATmega128A/production/src/Requests.o
+ .bss.gu8DisplayRequest
+                0x000000000080015a        0x1 build/ATmega128A/production/src/Requests.o
+ .bss.gu8SwRequest
+                0x000000000080015b        0x1 build/ATmega128A/production/src/Requests.o
+ .bss.gpAfterErrorCallback
+                0x000000000080015c        0x2 build/ATmega128A/production/src/Requests.o
+ .bss.gu8CommuincationError
+                0x000000000080015e        0x1 build/ATmega128A/production/src/Requests.o
+ .bss.gu8ReqFunState
+                0x000000000080015f        0x1 build/ATmega128A/production/src/Requests.o
+ .bss.gu8RequestDisplay
+                0x0000000000800160        0x1 build/ATmega128A/production/src/Requests.o
+ .bss.gu8CurrentSelectIP
+                0x0000000000800161        0x1 build/ATmega128A/production/src/selectIP.o
+ .bss.gu5SelectIpState
+                0x0000000000800162        0x1 build/ATmega128A/production/src/selectIP.o
+ .bss.gu8StartMessageState
+                0x0000000000800163        0x1 build/ATmega128A/production/src/SystemGenralOption.o
+ .bss.gu8StartMessgaeIndex
+                0x0000000000800164        0x1 build/ATmega128A/production/src/SystemGenralOption.o
+ .bss.gu8MaxOptions
+                0x0000000000800165        0x1 build/ATmega128A/production/src/SystemGenralOption.o
+ .bss.gu8OptionPos
+                0x0000000000800166        0x1 build/ATmega128A/production/src/SystemGenralOption.o
+ .bss.gu8LastIpSelect
+                0x0000000000800167        0x1 build/ATmega128A/production/src/switchCallbacks.o
+ .bss.gsCallPointData
+                0x0000000000800168        0x9 build/ATmega128A/production/src/switchCallbacks.o
+ .bss.gstCallPointConfig
+                0x0000000000800171        0x5 build/ATmega128A/production/src/switchCallbacks.o
+ .bss.gu8SwStateCallbacksState
+                0x0000000000800176        0x1 build/ATmega128A/production/src/switchCallbacks.o
+ .bss.gu8TypeLCDMAXDIGIT
+                0x0000000000800177        0x1 build/ATmega128A/production/src/TypeNumberSystem.o
+ .bss.gu8TypeLCDPOS
+                0x0000000000800178        0x1 build/ATmega128A/production/src/TypeNumberSystem.o
+ .bss.gu16LastDataEdit
+                0x0000000000800179        0x2 build/ATmega128A/production/src/TypeNumberSystem.o
+ .bss.gu16TypeEdit
+                0x000000000080017b        0x2 build/ATmega128A/production/src/TypeNumberSystem.o
+ .bss.gu8TypeState
+                0x000000000080017d        0x1 build/ATmega128A/production/src/TypeNumberSystem.o
+ .bss.gu16Type  0x000000000080017e        0x2 build/ATmega128A/production/src/TypeNumberSystem.o
+ .bss.gstboardInfo
+                0x0000000000800180        0xb build/ATmega128A/production/src/configuration.o
+ .bss.systemState.3591
+                0x000000000080018b        0x1 build/ATmega128A/production/src/ResetSystem.o
+ .bss.gu8DisplayCallBacksState.3592
+                0x000000000080018c        0x1 build/ATmega128A/production/src/ResetSystem.o
+ .bss.stConfig.3533
+                0x000000000080018d        0x5 build/ATmega128A/production/src/ResetSystem.o
+ .bss.stcallpointData.3532
+                0x0000000000800192        0x9 build/ATmega128A/production/src/ResetSystem.o
+ .bss.state.3530
+                0x000000000080019b        0x1 build/ATmega128A/production/src/ResetSystem.o
+ .bss.stCallPointData.3519
+                0x000000000080019c        0x9 build/ATmega128A/production/src/ResetSystem.o
+ .bss.stCallpointConfig.3520
+                0x00000000008001a5        0x5 build/ATmega128A/production/src/ResetSystem.o
+ .bss.state.3517
+                0x00000000008001aa        0x1 build/ATmega128A/production/src/ResetSystem.o
+ .bss.gstResetDataTimeOut
+                0x00000000008001ab        0x4 build/ATmega128A/production/src/ResetSystem.o
+ .bss.gu8SytemInactive
+                0x00000000008001af        0x1 build/ATmega128A/production/src/ResetSystem.o
+ .bss.gu8ResetModuleState
+                0x00000000008001b0        0x1 build/ATmega128A/production/src/ResetSystem.o
+ .bss.gu16ResetIndex
+                0x00000000008001b1        0x2 build/ATmega128A/production/src/ResetSystem.o
+ .bss.gsLoadConfigTimeOut
+                0x00000000008001b3        0x4 build/ATmega128A/production/src/loadIp.o
+ .bss.gu8CurrentAddressSelect
+                0x00000000008001b7        0x1 build/ATmega128A/production/src/loadIp.o
+ .bss.gu8LoadIpState
+                0x00000000008001b8        0x1 build/ATmega128A/production/src/loadIp.o
+ .bss.gsCurrentDisplayConfig
+                0x00000000008001b9       0x11 build/ATmega128A/production/src/network.o
+ .bss.gsCurrentCallPointConfig
+                0x00000000008001ca        0x5 build/ATmega128A/production/src/network.o
+ .bss.gsCurrentCallPointData
+                0x00000000008001cf        0x9 build/ATmega128A/production/src/network.o
+ .bss.gu8CurrentIp
+                0x00000000008001d8        0x1 build/ATmega128A/production/src/network.o
+ .bss.gu8CurrentAddress
+                0x00000000008001d9        0x1 build/ATmega128A/production/src/network.o
+ .bss.gu8NetworkState
+                0x00000000008001da        0x1 build/ATmega128A/production/src/network.o
+ .bss.currentIp.3487
+                0x00000000008001db        0x1 build/ATmega128A/production/src/displayCallbacks.o
+ .bss.gsDisplayConfig
+                0x00000000008001dc       0x11 build/ATmega128A/production/src/displayCallbacks.o
+ .bss.gu8DisplayCallBacksState
+                0x00000000008001ed        0x1 build/ATmega128A/production/src/displayCallbacks.o
+ .bss.gsPasswordTimeOut
+                0x00000000008001ee        0x4 build/ATmega128A/production/src/password.o
+ .bss.currentIndex
+                0x00000000008001f2        0x1 build/ATmega128A/production/src/password.o
+ .bss.displayUpdateState
+                0x00000000008001f3        0x1 build/ATmega128A/production/src/password.o
+ .bss.sizePassword
+                0x00000000008001f4        0x1 build/ATmega128A/production/src/password.o
+ .bss.forntPassword
+                0x00000000008001f5        0x1 build/ATmega128A/production/src/password.o
+ .bss.password  0x00000000008001f6        0x4 build/ATmega128A/production/src/password.o
+ .bss.gu8TpeSate
+                0x00000000008001fa        0x1 build/ATmega128A/production/src/password.o
+ .bss.gu8ResetAll
+                0x00000000008001fb        0x1 build/ATmega128A/production/src/Memory.o
+ .bss.gu8MemWriteState
+                0x00000000008001fc        0x1 build/ATmega128A/production/src/Memory.o
+ .bss.gu8MemReadState
+                0x00000000008001fd        0x1 build/ATmega128A/production/src/Memory.o
+ .bss.gu8MEMBuffer
+                0x00000000008001fe       0x14 build/ATmega128A/production/src/Memory.o
+ .bss.gu8MemPowerOn
+                0x0000000000800212        0x1 build/ATmega128A/production/src/Memory.o
+ .bss.gu8CurrentCallPointDataIndex
+                0x0000000000800213        0x1 build/ATmega128A/production/src/Memory.o
+ .bss.item      0x0000000000800214        0xa build/ATmega128A/production/src/userSytstem.o
+ .bss.gu8ToggleState
+                0x000000000080021e        0x1 build/ATmega128A/production/src/userSytstem.o
+ .bss.gu8OnPeriodIsDone
+                0x000000000080021f        0x1 build/ATmega128A/production/src/userSytstem.o
+ .bss.gu8UserSystem
+                0x0000000000800220        0x1 build/ATmega128A/production/src/userSytstem.o
+ .bss.gu8AcceptIpState
+                0x0000000000800221        0x1 build/ATmega128A/production/src/userSytstem.o
+ .bss.gu8UserAcceptState
+                0x0000000000800222        0x1 build/ATmega128A/production/src/userSytstem.o
+ .bss.gu8BuzzerState
+                0x0000000000800223        0x1 build/ATmega128A/production/src/userSytstem.o
+ .bss.gu8GeneralBuzzerActive
+                0x0000000000800224        0x1 build/ATmega128A/production/src/userSytstem.o
+ .bss.gu8Buzzer
+                0x0000000000800225        0x1 build/ATmega128A/production/src/userSytstem.o
+ .bss.gu8ProductLCDScoller
+                0x0000000000800226       0x10 build/ATmega128A/production/src/userSytstem.o
+ .bss.GeneralState.3541
+                0x0000000000800236        0x1 build/ATmega128A/production/src/display_queue.o
+ .bss.acceptState.3539
+                0x0000000000800237        0x1 build/ATmega128A/production/src/display_queue.o
+ .bss.clear_all_display
+                0x0000000000800238        0x1 build/ATmega128A/production/src/display_queue.o
+ .bss.gstUrgentNode
+                0x0000000000800239        0xb build/ATmega128A/production/src/display_queue.o
+ .bss.gstCallNode
+                0x0000000000800244        0xb build/ATmega128A/production/src/display_queue.o
+ .bss.gstFrequncy
+                0x000000000080024f        0x4 build/ATmega128A/production/src/dataTiming.o
+ .bss.display_item
+                0x0000000000800253        0x2 build/ATmega128A/production/src/dataTiming.o
+ .bss.gu8State  0x0000000000800255        0x1 build/ATmega128A/production/src/dataTiming.o
+ .bss.gu8Duration
+                0x0000000000800256        0x1 build/ATmega128A/production/src/dataTiming.o
+ .bss.gu16Period
+                0x0000000000800257        0x4 build/ATmega128A/production/src/dataTiming.o
+ .bss.gsNetWorkFiledRequest
+                0x000000000080025b        0x4 lib\mega2.X.a(csma.o)
+ .bss.gu8SendAckState
+                0x000000000080025f        0x1 lib\mega2.X.a(csma.o)
+ .bss.gpFunctionSaveSerial
+                0x0000000000800260        0x2 lib\mega2.X.a(csma.o)
+ .bss.gu8LoadIp
+                0x0000000000800262        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8SaveSerialState
+                0x0000000000800263        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8CurrentTimerRun
+                0x0000000000800264        0x1 lib\mega2.X.a(csma.o)
+ .bss.guTimeActtivationCode
+                0x0000000000800265        0x4 lib\mega2.X.a(csma.o)
+ .bss.gu8SystemServer
+                0x0000000000800269        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8SendStateRequest
+                0x000000000080026a        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8ReceiverBuffer
+                0x000000000080026b       0x1d lib\mega2.X.a(csma.o)
+ .bss.gu8ReceivByteCounter
+                0x0000000000800288        0x1 lib\mega2.X.a(csma.o)
+ .bss.gpFunOnFrameState
+                0x0000000000800289        0x2 lib\mega2.X.a(csma.o)
+ .bss.gu8TransmittAckBuffer
+                0x000000000080028b        0x9 lib\mega2.X.a(csma.o)
+ .bss.gu8TransmissionBuffer
+                0x0000000000800294       0x1d lib\mega2.X.a(csma.o)
+ .bss.guTLastGetAssignAddressCode
+                0x00000000008002b1        0x4 lib\mega2.X.a(csma.o)
+ .bss.gu8StationAddress
+                0x00000000008002b5        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8NumberOfTry
+                0x00000000008002b6        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8NewTransmitState
+                0x00000000008002b7        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8CW     0x00000000008002b8        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8CoillisonCounter
+                0x00000000008002b9        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8MaxTransmitByte
+                0x00000000008002ba        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8TransmitByteCounter
+                0x00000000008002bb        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8ManagmentSystemState
+                0x00000000008002bc        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8CurrentAssignmetAddress
+                0x00000000008002bd        0x1 lib\mega2.X.a(csma.o)
+ .bss.gpFunDataRequest
+                0x00000000008002be        0x2 lib\mega2.X.a(csma.o)
+ .bss.gpFunResponseFrame
+                0x00000000008002c0        0x2 lib\mega2.X.a(csma.o)
+ .bss.gu8UserSendState
+                0x00000000008002c2        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8UserReceiverState
+                0x00000000008002c3        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8CsmaUserData
+                0x00000000008002c4       0x14 lib\mega2.X.a(csma.o)
+ .bss.gu8len    0x00000000008002d8        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8OtherDeviceSA
+                0x00000000008002d9        0x1 lib\mega2.X.a(csma.o)
+ .bss.gu8OtherDeviceDA
+                0x00000000008002da        0x1 lib\mega2.X.a(csma.o)
+ .bss.gstDs1307TwiPag
+                0x00000000008002db        0x9 lib\mega2.X.a(ds1307.o)
+ .bss.gsDs1307TimeOut
+                0x00000000008002e4        0x4 lib\mega2.X.a(ds1307.o)
+ .bss.gu8ds1307Buffer
+                0x00000000008002e8        0x7 lib\mega2.X.a(ds1307.o)
+ .bss.gu8UserState
+                0x00000000008002ef        0x1 lib\mega2.X.a(ds1307.o)
+ .bss.gu8ds1307States
+                0x00000000008002f0        0x1 lib\mega2.X.a(ds1307.o)
+ .bss.exEEPROM_desc
+                0x00000000008002f1        0xb lib\mega2.X.a(exEprom.o)
+ .bss.exeeprom_read_buf
+                0x00000000008002fc       0x14 lib\mega2.X.a(exEprom.o)
+ .bss.exeepromTwiPackage
+                0x0000000000800310        0x9 lib\mega2.X.a(exEprom.o)
+ .bss.gpFunKeyEvent
+                0x0000000000800319        0x2 lib\mega2.X.a(keypad.o)
+ .bss.gGetKey   0x000000000080031b        0x3 lib\mega2.X.a(keypad.o)
+ .bss.gpcKeyEvents
+                0x000000000080031e        0x2 lib\mega2.X.a(keypad.o)
+ .bss.guKeypadFlags
+                0x0000000000800320        0x1 lib\mega2.X.a(keypad.o)
+ .bss.gstKeyMultiTabTimeOut
+                0x0000000000800321        0x4 lib\mega2.X.a(keypad.o)
+ .bss.gstKeyLongPreeTimeOut
+                0x0000000000800325        0x4 lib\mega2.X.a(keypad.o)
+ .bss.gstKeyQueueStructDescriptor
+                0x0000000000800329        0x7 lib\mega2.X.a(keypad.o)
+ .bss.gKeyEventQueue
+                0x0000000000800330        0xc lib\mega2.X.a(keypad.o)
+ .bss.gpFunKeyEvents
+                0x000000000080033c       0x20 lib\mega2.X.a(keypad.o)
+ .bss.gu8KeyDounceCounter
+                0x000000000080035c        0x1 lib\mega2.X.a(keypad.o)
+ .bss.gu8BeforeLastCode
+                0x000000000080035d        0x1 lib\mega2.X.a(keypad.o)
+ .bss.gu8LastCode
+                0x000000000080035e        0x1 lib\mega2.X.a(keypad.o)
+ .bss.gu8CurrentCode
+                0x000000000080035f        0x1 lib\mega2.X.a(keypad.o)
+ .bss.gu8KeyCode
+                0x0000000000800360        0x1 lib\mega2.X.a(keypad.o)
+ .bss.guKeyScanCOL
+                0x0000000000800361        0x1 lib\mega2.X.a(keypad.o)
+ .bss.guKeyScanRow
+                0x0000000000800362        0x1 lib\mega2.X.a(keypad.o)
+ .bss.gpFunKeyScan
+                0x0000000000800363        0x2 lib\mega2.X.a(keypad.o)
+ .bss.gu8LCDPosition
+                0x0000000000800365        0x1 lib\mega2.X.a(lcd.o)
+ .bss.gu8LCDFlags
+                0x0000000000800366        0x1 lib\mega2.X.a(lcd.o)
+ .bss.gu8LcdBufferIndex
+                0x0000000000800367        0x1 lib\mega2.X.a(lcd.o)
+ .bss.gu8LcdOPtion
+                0x0000000000800368        0x1 lib\mega2.X.a(lcd.o)
+ .bss.gu8OPenMenueFlag
+                0x0000000000800369        0x1 lib\mega2.X.a(lcdmnue.o)
+ .bss.gpCurrentMenuItem
+                0x000000000080036a        0x2 lib\mega2.X.a(lcdmnue.o)
+ .bss.gu8halfSecondEvent
+                0x000000000080036c        0x1 lib\mega2.X.a(system.o)
+ .bss.gu8SecondEventFlag
+                0x000000000080036d        0x1 lib\mega2.X.a(system.o)
+ .bss.gu16SecondEvent
+                0x000000000080036e        0x2 lib\mega2.X.a(system.o)
+ .bss.gu8NumberOFusPerMs
+                0x0000000000800370        0x1 lib\mega2.X.a(system.o)
+ .bss.gu32SystemTime
+                0x0000000000800371        0x4 lib\mega2.X.a(system.o)
+ .bss.gu32TimeMs
+                0x0000000000800375        0x4 lib\mega2.X.a(system.o)
+ .bss.gu32SystemTick
+                0x0000000000800379        0x4 lib\mega2.X.a(system.o)
+ .bss.gstTones  0x000000000080037d        0xb lib\mega2.X.a(tone.o)
+ .bss.master_transfer
+                0x0000000000800388        0x6 lib\mega2.X.a(twi.o)
+ .bss.twi_mode  0x000000000080038e        0x1 lib\mega2.X.a(twi.o)
+ .bss.twi_master_busy
+                0x000000000080038f        0x1 lib\mega2.X.a(twi.o)
+ .bss.position  0x0000000000800390        0x1 lib\mega2.X.a(utility.o)
+ *(COMMON)
+ COMMON         0x0000000000800391        0x8 build/ATmega128A/production/src/WorkingTime.o
+                0x0000000000800391                gstWorkingTime
+ COMMON         0x0000000000800399        0x4 lib\mega2.X.a(exEprom.o)
+                0x0000000000800399                gstExeepromTimeOut
+ COMMON         0x000000000080039d        0x4 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x000000000080039d                __brkval
+                0x000000000080039f                __flp
+                0x00000000008003a1                PROVIDE (__bss_end, .)
+                0x000000000000828c                __data_load_start = LOADADDR (.data)
+                0x00000000000082c4                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008003a1        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x00000000008003a1                _end = .
+                0x00000000008003a1                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x30
+ *(.comment)
+ .comment       0x0000000000000000       0x30 build/ATmega128A/production/src/app.o
+                                         0x31 (size before relaxing)
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/SystemTime.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/EventsHandles.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/message.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/WorkingTime.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/Main.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/Requests.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/selectIP.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/SystemGenralOption.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/switchCallbacks.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/TypeNumberSystem.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/configuration.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/ResetSystem.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/loadIp.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/network.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/displayCallbacks.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/password.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/Memory.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/userSytstem.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/display_queue.o
+ .comment       0x0000000000000030       0x31 build/ATmega128A/production/src/dataTiming.o
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(csma.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(ds1307.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(exEprom.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(keypad.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(lcd.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(lcdmnue.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(system.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(time.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(tone.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(twi.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(usart.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(utility.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(mega.o)
+ .comment       0x0000000000000030       0x31 lib\mega2.X.a(buffers.o)
+ .comment       0x0000000000000030       0x31 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .comment       0x0000000000000030       0x31 f:/embbeded system/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr51\libc.a(random.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x780
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x780 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+
+.debug_abbrev   0x0000000000000000      0x718
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x718 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+
+.debug_line     0x0000000000000000      0x16a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x16a C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x27d
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x27d C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/ATmega_DFP/3.0.158/gcc/dev/atmega128a/avr51/crtatmega128a.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(dist/ATmega128A/production/NurseMaster.X.production.elf elf32-avr)
+LOAD linker stubs
